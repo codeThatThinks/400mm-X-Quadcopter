@@ -67,3 +67,13 @@
 - nRF24L01+?
 - full duplex RF
 - Serial PPM
+
+### Motors
+
+### Propellers
+
+### ESCs
+
+### Frame
+
+### Battery
