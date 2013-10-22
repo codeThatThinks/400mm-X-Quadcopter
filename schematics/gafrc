@@ -1,0 +1,3 @@
+(reset-component-library)
+(component-library "./symbols")
+(define default-titleblock "title-bordered-A2.sym")
