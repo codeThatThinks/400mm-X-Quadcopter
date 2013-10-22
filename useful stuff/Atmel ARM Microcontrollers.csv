@@ -1,0 +1,73 @@
+Part Number,Price,Flash,Pin Count,MHz,CPU,Max I/O Pins,Ext Interrupts,USB,Quadrature Decoder,USB Speed,USB Interface,SPI,I2C,UART,CAN,LIN,SSC,Ethernet,SD / eMMC,ADC,ADC Resolution,ADC Speed,Analog Comparators,DAC,DAC Resolution,Temp. Sensor,SRAM,External Bus Interface,NAND Interface,Operating Voltage,FPU,MPU,MMU,Timers,Output Compare,Input Capture,PWM,RTC,Calibrated RC Oscillator,Watchdog,Packages
+ATSAM3A4C,8.82,256,100,84,Cortex-M3,63,63,1,2,High,"Host, Device",4,2,4,2,3,1,,1,16,12,1000,,2,12,Yes,64,,,1.62 to 3.6,,Yes,,9,18,6,4,Yes,Yes,,
+ATSAM3A8C,10.45,512,100,84,Cortex-M3,63,63,1,2,High,"Host, Device",4,2,4,2,3,1,,1,16,12,1000,,2,12,Yes,96,,,1.62 to 3.6,,Yes,,9,18,6,4,Yes,Yes,,
+ATSAM3N00A,2.77,16,48,48,Cortex-M3,34,34,,1,,,2,2,3,,,,,,8,10,384,,,,,4,,,1.62 to 3.6,,,,6,9,6,4,Yes,Yes,,
+ATSAM3N00B,2.92,16,64,48,Cortex-M3,47,47,,1,,,3,2,4,,,,,,10,10,384,,1,10,,4,,,1.62 to 3.6,,,,6,9,6,4,Yes,Yes,,
+ATSAM3N0A,2.86,32,48,48,Cortex-M3,34,34,,1,,,2,2,3,,,,,,8,10,384,,,,,8,,,1.62 to 3.6,,,,6,9,6,4,Yes,Yes,,
+ATSAM3N0B,3.01,32,64,48,Cortex-M3,47,47,,1,,,3,2,4,,,,,,10,10,384,,1,10,,8,,,1.62 to 3.6,,,,6,9,6,4,Yes,Yes,,
+ATSAM3N0C,3.19,32,100,48,Cortex-M3,79,79,,2,,,3,2,4,,,,,,16,10,384,,1,10,,8,,,1.62 to 3.6,,,,6,18,12,4,Yes,Yes,,
+ATSAM3N1A,,64,48,48,Cortex-M3,34,34,,1,,,2,2,3,,,,,,8,10,384,,,,,8,,,1.62 to 3.6,,,,6,9,6,4,Yes,Yes,,QFN R-QFN048_E 48
+ATSAM3N1B,,64,64,48,Cortex-M3,47,47,,1,,,3,2,4,,,,,,10,10,384,,1,10,,8,,,1.62 to 3.6,,,,6,9,6,4,Yes,Yes,,"LQFP R-LQ064_E 64,QFN R-QFN064_B 64"
+ATSAM3N1C,,64,100,48,Cortex-M3,79,79,,2,,,3,2,4,,,,,,16,10,384,,1,10,,8,,,1.62 to 3.6,,,,6,18,12,4,Yes,Yes,,"LQFP R-LQ100_M 100,TFBGA R-TFBGA100_S 100"
+ATSAM3N2A,,128,48,48,Cortex-M3,34,34,,1,,,2,2,3,,,,,,8,10,384,,,,,16,,,1.62 to 3.6,,,,6,9,6,4,Yes,Yes,,QFN R-QFN048_E 48
+ATSAM3N2B,,128,64,48,Cortex-M3,47,47,,1,,,3,2,4,,,,,,10,10,384,,1,10,,16,,,1.62 to 3.6,,,,6,9,6,4,Yes,Yes,,"LQFP R-LQ064_E 64,QFN R-QFN064_B 64"
+ATSAM3N2C,,128,100,48,Cortex-M3,79,79,,2,,,3,2,4,,,,,,16,10,384,,1,10,,16,,,1.62 to 3.6,,,,6,18,12,4,Yes,Yes,,"LQFP R-LQ100_M 100,TFBGA R-TFBGA100_S 100"
+ATSAM3N4A,,256,48,48,Cortex-M3,34,34,,1,,,2,2,3,,,,,,8,10,384,,,,,24,,,1.62 to 3.6,,,,6,9,6,4,Yes,Yes,,QFN R-QFN048_E 48
+ATSAM3N4B,6.13,256,64,48,Cortex-M3,47,47,,1,,,3,2,4,,,,,,10,10,384,,1,10,,24,,,1.62 to 3.6,,,,6,9,6,4,Yes,Yes,,"LQFP R-LQ064_E 64,QFN R-QFN064_B 64"
+ATSAM3N4C,,256,100,48,Cortex-M3,79,79,,2,,,3,2,4,,,,,,16,10,384,,1,10,,24,,,1.62 to 3.6,,,,6,18,12,4,Yes,Yes,,"LQFP R-LQ100_M 100,TFBGA R-TFBGA100_S 100"
+ATSAM3S1A,,64,48,64,Cortex-M3,34,34,1,1,Full,Device,2,2,3,,,1,,,8,12,1000,1,,,Yes,16,,,1.62 to 3.6,,Yes,,3,9,6,4,Yes,Yes,,LQFP R-LQ048_E 48
+ATSAM3S1B,,64,64,64,Cortex-M3,47,47,1,1,Full,Device,3,2,4,,,1,,1,10,12,1000,1,2,12,Yes,16,,,1.62 to 3.6,,Yes,,3,9,6,4,Yes,Yes,,"LQFP R-LQ064_K - 64 - RFO,QFN R-QFN064_B 64"
+ATSAM3S1C,,64,100,64,Cortex-M3,79,79,1,2,Full,Device,3,2,4,,,1,,1,16,12,1000,1,2,12,Yes,16,1,Yes,1.62 to 3.6,,Yes,,6,18,12,4,Yes,Yes,,"LQFP R-LQ100_M 100,TFBGA R-TFBGA100_S 100"
+ATSAM3S2A,4.86,128,48,64,Cortex-M3,34,34,1,1,Full,Device,2,2,3,,,1,,,8,12,1000,1,,,Yes,32,,,1.62 to 3.6,,Yes,,3,9,6,4,Yes,Yes,,LQFP R-LQ048_E 48
+ATSAM3S2B,5.13,128,64,64,Cortex-M3,47,47,1,1,Full,Device,3,2,4,,,1,,1,10,12,1000,1,2,12,Yes,32,,,1.62 to 3.6,,Yes,,3,9,6,4,Yes,Yes,,"LQFP R-LQ064_K - 64 - RFO,QFN R-QFN064_B 64"
+ATSAM3S2C,5.41,128,100,64,Cortex-M3,79,79,1,2,Full,Device,3,2,4,,,1,,1,16,12,1000,1,2,12,Yes,32,1,Yes,1.62 to 3.6,,Yes,,6,18,12,4,Yes,Yes,,"LQFP R-LQ100_M 100,TFBGA R-TFBGA100_S 100"
+ATSAM3S4A,6.86,256,48,64,Cortex-M3,34,34,1,1,Full,Device,2,2,3,,,1,,,8,12,1000,1,,,Yes,48,,,1.62 to 3.6,,Yes,,3,9,6,4,Yes,Yes,,"LQFP R-LQ048_E 48,QFN R-QFN048_F 48"
+ATSAM3S4B,7.24,256,64,64,Cortex-M3,47,47,1,1,Full,Device,3,2,4,,,1,,1,10,12,1000,1,2,12,Yes,48,,,1.62 to 3.6,,Yes,,3,9,6,4,Yes,Yes,,"LQFP R-LQ064_K - 64 - RFO,QFN R-QFN064_B 64"
+ATSAM3S4C,7.98,256,100,64,Cortex-M3,79,79,1,2,Full,Device,3,2,4,,,1,,1,16,12,1000,1,2,12,Yes,48,1,Yes,1.62 to 3.6,,Yes,,6,18,12,4,Yes,Yes,,"LQFP R-LQ100_M 100,TFBGA R-TFBGA100_S 100"
+ATSAM3S8B,8.58,512,64,64,Cortex-M3,47,47,1,1,Full,Device,3,2,4,,,1,,1,10,12,1000,1,2,12,Yes,64,,,1.62 to 3.6,,Yes,,3,9,6,4,Yes,Yes,,
+ATSAM3S8C,9.10,512,100,64,Cortex-M3,79,79,1,2,Full,Device,3,2,4,,,1,,1,16,12,1000,1,2,12,Yes,64,1,Yes,1.62 to 3.6,,Yes,,6,18,12,4,Yes,Yes,,
+ATSAM3SD8B,9.44,512,64,64,Cortex-M3,47,47,1,1,Full,Device,3,2,4,,,1,,1,10,12,1000,1,2,12,Yes,64,,,1.62 to 3.6,,Yes,,3,9,6,4,Yes,Yes,,
+ATSAM3SD8C,10.00,512,100,64,Cortex-M3,79,79,1,2,Full,Device,4,2,5,,,1,,1,16,12,1000,1,2,12,Yes,64,1,Yes,1.62 to 3.6,,Yes,,6,18,12,4,Yes,Yes,,
+ATSAM3U1C,11.16,64,100,96,Cortex-M3,57,57,1,1,High,Device,4,1,4,,,1,,1,8,12,1000,,,,,20,1,Yes,1.62 to 3.6,,Yes,,3,9,6,4,Yes,Yes,,LQFP R-LQ100_M 100
+ATSAM3U1E,,64,144,96,Cortex-M3,96,96,1,1,High,Device,5,2,5,,,1,,1,16,12,1000,,,,,20,1,Yes,1.62 to 3.6,,Yes,,3,9,6,4,Yes,Yes,,LQFP R-LQ144_H 144
+ATSAM3U2C,6.19,128,100,96,Cortex-M3,57,57,1,1,High,Device,4,1,4,,,1,,1,8,12,1000,,,,,36,1,Yes,1.62 to 3.6,,Yes,,3,9,6,4,Yes,Yes,,LQFP R-LQ100_M 100
+ATSAM3U2E,7.20,128,144,96,Cortex-M3,96,96,1,1,High,Device,5,2,5,,,1,,1,16,12,1000,,,,,36,1,Yes,1.62 to 3.6,,Yes,,3,9,6,4,Yes,Yes,,LQFP R-LQ144_H 144
+ATSAM3U4C,8.78,256,100,96,Cortex-M3,57,57,1,1,High,Device,4,1,4,,,1,,1,8,12,1000,,,,,50,1,Yes,1.62 to 3.6,,Yes,,3,9,6,4,Yes,Yes,,LQFP R-LQ100_M 100
+ATSAM3U4E,10.21,256,144,96,Cortex-M3,96,96,1,1,High,Device,5,2,5,,,1,,1,16,12,1000,,,,,50,1,Yes,1.62 to 3.6,,Yes,,3,9,6,4,Yes,Yes,,LQFP R-LQ144_H 144
+ATSAM3X4C,9.21,256,100,84,Cortex-M3,63,63,1,2,High,"Host, Device",4,2,4,2,3,1,1,1,16,12,1000,,2,12,Yes,64,,,1.62 to 3.6,,Yes,,9,9,6,4,Yes,Yes,,
+ATSAM3X4E,11.14,256,144,84,Cortex-M3,103,103,1,2,High,"Host, Device",4,2,5,2,3,1,1,1,16,12,1000,,2,12,Yes,64,1,Yes,1.62 to 3.6,,Yes,,9,9,6,8,Yes,Yes,,
+ATSAM3X8C,10.92,512,100,84,Cortex-M3,63,63,1,2,High,"Host, Device",4,2,4,2,3,1,1,1,16,12,1000,,2,12,Yes,96,,,1.62 to 3.6,,Yes,,9,9,6,4,Yes,Yes,,
+ATSAM3X8E,13.73,512,144,84,Cortex-M3,103,103,1,2,High,"Host, Device",4,2,5,2,3,1,1,1,16,12,1000,,2,12,Yes,96,1,Yes,1.62 to 3.6,,Yes,,9,9,6,8,Yes,Yes,,
+ATSAM4E16C,,1024,100,120,Cortex-M4,79,79,1,1,Full,Device,3,2,4,1,,,1,1,10,16,1000,1,2,12,Yes,128,,,1.62 to 3.6,Yes,Yes,,3,9,6,4,Yes,Yes,,"LQFP100_Q,TFBGA100_Al"
+ATSAM4E16E,,1024,144,120,Cortex-M4,117,117,1,2,Full,Device,3,2,4,2,,,1,1,24,16,1000,1,2,12,Yes,128,1,Yes,1.62 to 3.6,Yes,Yes,,9,24,18,4,Yes,Yes,,"LFBGA R-LFBGA144_T 144,LQFP R-LQ144_N 144"
+ATSAM4E8C,,512,100,120,Cortex-M4,79,79,1,1,Full,Device,3,2,4,1,,,1,1,10,16,1000,1,2,12,Yes,128,,,1.62 to 3.6,Yes,Yes,,3,9,6,4,Yes,Yes,,"LQFP100_Q,TFBGA100_Al"
+ATSAM4E8E,,512,144,120,Cortex-M4,117,117,1,2,Full,Device,3,2,4,2,,,1,1,24,16,1000,1,2,12,Yes,128,1,Yes,1.62 to 3.6,Yes,Yes,,9,24,18,4,Yes,Yes,,"LFBGA R-LFBGA144_T 144,LQFP R-LQ144_N 144"
+ATSAM4N16B,8.98,1024,64,100,Cortex-M4,47,47,,1,,,3,3,6,,,,,,10,10,500,,1,10,Yes,80,,,1.62 to 3.6,,,,6,9,6,4,Yes,Yes,,"LQFP64_L,QFN64_V"
+ATSAM4N16C,9.55,1024,100,100,Cortex-M4,79,79,,2,,,4,3,7,,,,,,16,10,500,,1,10,Yes,80,,,1.62 to 3.6,,,,6,18,12,4,Yes,Yes,,"LQFP100_P,TFBGA100_Y,VFBGA100_B"
+ATSAM4N8A,,512,48,100,Cortex-M4,34,34,,,,,2,3,5,,,,,,8,10,500,,,,Yes,64,,,1.62 to 3.6,,,,6,9,6,4,Yes,Yes,,"LQ048_H,QFN048_H"
+ATSAM4N8B,7.48,512,64,100,Cortex-M4,47,47,,1,,,3,3,6,,,,,,10,10,500,,1,10,Yes,64,,,1.62 to 3.6,,,,6,9,6,4,Yes,Yes,,"LQFP64_L,QFN64_V"
+ATSAM4N8C,8.26,512,100,100,Cortex-M4,79,79,,2,,,4,3,7,,,,,,16,10,500,,1,10,Yes,64,,,1.62 to 3.6,,,,6,18,12,4,Yes,Yes,,"LQFP100_P,TFBGA100_Y,VFBGA100_B"
+ATSAM4S16B,10.93,1024,64,120,Cortex-M4,47,47,1,1,Full,Device,3,2,4,,,1,,1,11,12,1000,1,2,12,Yes,128,,,1.62 to 3.6,,Yes,,6,9,6,4,Yes,Yes,,"LQFP64_L,QFN64_V"
+ATSAM4S16C,12.12,1024,100,120,Cortex-M4,79,79,1,2,Full,Device,3,2,4,,,1,,1,16,12,1000,1,2,12,Yes,128,1,Yes,1.62 to 3.6,,Yes,,6,18,12,4,Yes,Yes,,"LQFP100_P,TFBGA100_AH,VFBGA100_D"
+ATSAM4S8B,9.10,512,64,120,Cortex-M4,47,47,1,1,Full,Device,3,2,4,,,1,,1,11,12,1000,1,2,12,Yes,128,,,1.62 to 3.6,,Yes,,6,9,6,4,Yes,Yes,,"LQFP64_L,QFN64_V"
+ATSAM4S8C,10.06,512,100,120,Cortex-M4,79,79,1,2,Full,Device,3,2,4,,,1,,1,16,12,1000,1,2,12,Yes,128,1,Yes,1.62 to 3.6,,Yes,,6,18,12,4,Yes,Yes,,"LQFP100_P,TFBGA100_AH,VFBGA100_D"
+ATSAM4SA16B,,1024,64,120,Cortex-M4,47,47,1,1,Full,Device,3,2,4,,,1,,1,11,12,1000,1,2,12,Yes,160,,,1.62 to 3.6,,Yes,,6,9,6,4,Yes,Yes,,"LQFP64_L,QFN64_V"
+ATSAM4SA16C,,1024,100,120,Cortex-M4,79,79,1,2,Full,Device,3,2,4,,,1,,1,11,12,1000,1,2,12,Yes,160,1,Yes,1.62 to 3.6,,Yes,,6,18,12,4,Yes,Yes,,"LQFP100_P,TFBGA100_AH,VFBGA100_D"
+ATSAM4SD16B,,1024,64,120,Cortex-M4,47,47,1,1,Full,Device,3,2,4,,,1,,1,11,12,1000,1,2,12,Yes,160,,,1.62 to 3.6,,Yes,,6,9,6,4,Yes,Yes,,"LQFP64_L,QFN64_V"
+ATSAM4SD16C,,1024,100,120,Cortex-M4,79,79,1,2,Full,Device,3,2,4,,,1,,1,11,12,1000,1,2,12,Yes,160,1,Yes,1.62 to 3.6,,Yes,,6,18,12,4,Yes,Yes,,"LQFP100_P,TFBGA100_AH,VFBGA100_D"
+ATSAM4SD32B,,2048,64,120,Cortex-M4,47,47,1,1,Full,Device,3,2,4,,,1,,1,11,12,1000,1,2,12,Yes,160,,,1.62 to 3.6,,Yes,,6,9,6,4,Yes,Yes,,"LQFP64_L,QFN64_V"
+ATSAM4SD32C,17.09,2048,100,120,Cortex-M4,79,79,1,2,Full,Device,3,2,4,,,1,,1,16,12,1000,1,2,12,Yes,160,1,Yes,1.62 to 3.6,,Yes,,6,18,12,4,Yes,Yes,,"LQFP100_P,TFBGA100_AH,VFBGA100_D"
+ATSAMD20E14,,16,32,48,Cortex-M0+,26,16,,,,,4,4,4,,,,,,10,12,350,2,1,10,Yes,2,,,1.62 to 3.63,,,,6,10,6,10,Yes,Yes,Yes,"QFN WN 32 ,TQFP MA 32"
+ATSAMD20E15,,32,32,48,Cortex-M0+,26,16,,,,,4,4,4,,,,,,10,12,350,2,1,10,Yes,4,,,1.62 to 3.63,,,,6,10,6,12,Yes,Yes,Yes,"QFN WN 32 ,TQFP MA 32"
+ATSAMD20E16,,64,32,48,Cortex-M0+,26,16,,,,,4,4,4,,,,,,10,12,350,2,1,10,Yes,8,,,1.62 to 3.63,,,,6,10,6,10,Yes,Yes,Yes,"QFN WN 32 ,TQFP MA 32"
+ATSAMD20E17,,128,32,48,Cortex-M0+,26,16,,,,,4,4,4,,,,,,10,12,350,2,1,10,Yes,16,,,1.62 to 3.63,,,,6,10,6,10,Yes,Yes,Yes,"QFN WN 32 ,TQFP MA 32"
+ATSAMD20G14,,16,48,48,Cortex-M0+,38,16,,,,,6,6,6,,,,,,14,12,350,2,1,10,Yes,2,,,1.62 to 3.63,,,,8,16,8,16,Yes,Yes,Yes,"QFN R-QFN048_B 48,TQFP MC 48"
+ATSAMD20G15,,32,48,48,Cortex-M0+,38,16,,,,,6,6,6,,,,,,14,12,350,2,1,10,Yes,4,,,1.62 to 3.63,,,,8,16,8,16,Yes,Yes,Yes,"QFN R-QFN048_B 48,TQFP MC 48"
+ATSAMD20G16,,64,48,48,Cortex-M0+,38,16,,,,,6,6,6,,,,,,14,12,350,2,1,10,Yes,8,,,1.62 to 3.63,,,,8,16,8,16,Yes,Yes,Yes,"QFN R-QFN048_B 48,TQFP MC 48"
+ATSAMD20G17,,128,48,48,Cortex-M0+,38,16,,,,,6,6,6,,,,,,14,12,350,2,1,10,Yes,16,,,1.62 to 3.63,,,,8,16,8,16,Yes,Yes,Yes,"QFN R-QFN048_B 48,TQFP MC 48"
+ATSAMD20G18,,256,48,48,Cortex-M0+,38,16,,,,,6,6,6,,,,,,14,12,350,2,1,10,Yes,32,,,1.62 to 3.63,,,,8,16,8,16,Yes,Yes,Yes,"QFN R-QFN048_B 48,TQFP MC 48"
+ATSAMD20J14,,16,64,48,Cortex-M0+,52,16,,,,,6,6,6,,,,,,20,12,350,2,1,10,Yes,2,,,1.62 to 3.63,,,,8,16,8,16,Yes,Yes,Yes,"QFN PA 64,TQFP 64A 64"
+ATSAMD20J15,,32,64,48,Cortex-M0+,52,16,,,,,6,6,6,,,,,,20,12,350,2,1,10,Yes,4,,,1.62 to 3.63,,,,8,16,8,16,Yes,Yes,Yes,"QFN PA 64,TQFP 64A 64"
+ATSAMD20J16,,64,64,48,Cortex-M0+,52,16,,,,,6,6,6,,,,,,20,12,350,2,1,10,Yes,8,,,1.62 to 3.63,,,,8,16,8,16,Yes,Yes,Yes,"QFN PA 64,TQFP 64A 64"
+ATSAMD20J17,,128,64,48,Cortex-M0+,52,16,,,,,6,6,6,,,,,,20,12,350,2,1,10,Yes,16,,,1.62 to 3.63,,,,8,16,8,16,Yes,Yes,Yes,"QFN PA 64,TQFP 64A 64"
+ATSAMD20J18,,256,64,48,Cortex-M0+,52,16,,,,,6,6,6,,,,,,20,12,350,2,1,10,Yes,32,,,1.62 to 3.63,,,,8,16,8,16,Yes,Yes,Yes,"QFN PA 64,TQFP 64A 64"
