@@ -72,11 +72,10 @@
 - full duplex RF
 - Serial PPM
 
-### Motors
-
-### Propellers
-
-### ESCs
+### Motors, Propellers, ESCs
+- Turnigy D2830-11 1000kv motor
+- 30A ESC (no BEC)
+- APC 8x4 propellers
 
 ### Frame
 
