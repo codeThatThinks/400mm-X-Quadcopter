@@ -1,2 +1,5 @@
-Quantity,	Part Number,	Description,				Cost
-,			,				Total,						$0.00
+Quantity,	Item,								URL,																									Cost
+4,			Turnigy D2830-11 1000kv motor,		http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=12921								$39.72
+1,			APC 8x4 CW propeller (2 pack),		http://hobbyking.com/hobbyking/store/__22971__APC_Style_Propeller_8x4R_Right_Hand_Rotation_2pc_.html,	$1.79
+1,			APC 8x4 CCW propeller (2 pack),		http://hobbyking.com/hobbyking/store/__22425__APC_Style_Propeller_8x4_2_pc_.html,						$2.02
+,			,									,																										Total: $43.53
