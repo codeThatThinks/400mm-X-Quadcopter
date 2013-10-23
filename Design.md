@@ -51,8 +51,12 @@
 - LEDs
     - blue power LED
     - red/green arming status LED
-    - 4x high power white LEDs
 
+    - nav LEDs:
+        - 4x high power white strobe LEDs on rotor tips
+        - green nav LED on front right rotor
+        - red nav LED on front left rotor
+        - 2x red strobe LEDs on bottom front and top back
 
 ### IMU
 - connects via I2C to control board
