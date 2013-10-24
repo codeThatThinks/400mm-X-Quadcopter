@@ -73,9 +73,11 @@
 - Serial PPM
 
 ### Motors, Propellers, ESCs
-- Turnigy D2830-11 1000kv motor
-- 30A ESC (no BEC)
+- Turnigy D2830-11 1000kv motors
 - APC 8x4 propellers
+- Turnigy Multistar 30A ESCs (OPTO)
+    - no BEC
+    - reflash with SimonK firmware with Arduino
 
 ### Frame
 
