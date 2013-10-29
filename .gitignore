@@ -21,3 +21,4 @@ schematics/symbols/ATSAM3C2U_UART.mksym
 schematics/symbols/ATSAM3C2U_USART.mksym
 schematics/symbols/ATSAM3C2U_USB.mksym
 schematics/symbols/ATSAM3C2U_Wakeup.mksym
+schematics/symbols/LM2596S-3.3.mksym
