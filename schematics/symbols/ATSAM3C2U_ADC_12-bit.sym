@@ -1,0 +1,80 @@
+v 20110115 2
+P 300 600 0 600 1 0 1
+{
+T 250 625 5 8 1 1 0 6 1
+pinnumber=8
+T 300 600 5 8 0 1 0 6 1
+pinseq=1
+T 400 600 3 8 1 1 0 1 1
+pinlabel=AD12B3
+T 300 600 3 8 0 1 0 5 1
+pintype=in
+}
+P 300 900 0 900 1 0 1
+{
+T 250 925 5 8 1 1 0 6 1
+pinnumber=7
+T 300 900 5 8 0 1 0 6 1
+pinseq=2
+T 400 900 3 8 1 1 0 1 1
+pinlabel=AD12B2
+T 300 900 3 8 0 1 0 5 1
+pintype=in
+}
+P 300 1200 0 1200 1 0 1
+{
+T 250 1225 5 8 1 1 0 6 1
+pinnumber=6
+T 300 1200 5 8 0 1 0 6 1
+pinseq=3
+T 400 1200 3 8 1 1 0 1 1
+pinlabel=AD12B1
+T 300 1200 3 8 0 1 0 5 1
+pintype=in
+}
+P 300 1500 0 1500 1 0 1
+{
+T 250 1525 5 8 1 1 0 6 1
+pinnumber=5
+T 300 1500 5 8 0 1 0 6 1
+pinseq=4
+T 400 1500 3 8 1 1 0 1 1
+pinlabel=AD12B0
+T 300 1500 3 8 0 1 0 5 1
+pintype=in
+}
+P 300 1800 0 1800 1 0 1
+{
+T 250 1825 5 8 1 1 0 6 1
+pinnumber=14
+T 300 1800 5 8 0 1 0 6 1
+pinseq=5
+T 400 1800 3 8 1 1 0 1 1
+pinlabel=AD12BTRG
+T 300 1800 3 8 0 1 0 5 1
+pintype=pas
+}
+P 300 2100 0 2100 1 0 1
+{
+T 250 2125 5 8 1 1 0 6 1
+pinnumber=4
+T 300 2100 5 8 0 1 0 6 1
+pinseq=6
+T 400 2100 3 8 1 1 0 1 1
+pinlabel=AD12BVREF
+T 300 2100 3 8 0 1 0 5 1
+pintype=pas
+}
+B 300 300 1500 2100 3 10 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 0 0 0 1 0 0 0 0 1
+device=ATSAM3C2U
+T 0 0 0 1 0 0 0 0 1
+footprint=LQFP100
+T 0 0 0 1 0 0 0 0 1
+description=
+T 0 0 0 1 0 0 0 0 1
+numslots=0
+T 600 100 9 8 1 0 0 0 1
+ATSAM3C2U
+T 400 2500 8 8 1 1 0 0 1
+refdes=U?

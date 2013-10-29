@@ -1,0 +1,300 @@
+v 20110115 2
+P 300 600 0 600 1 0 1
+{
+T 250 625 5 8 1 1 0 6 1
+pinnumber=17
+T 300 600 5 8 0 1 0 6 1
+pinseq=1
+T 400 600 3 8 1 1 0 1 1
+pinlabel=PWMFI2
+T 300 600 3 8 0 1 0 5 1
+pintype=in
+}
+P 300 900 0 900 1 0 1
+{
+T 250 925 5 8 1 1 0 6 1
+pinnumber=41
+T 300 900 5 8 0 1 0 6 1
+pinseq=2
+T 400 900 3 8 1 1 0 1 1
+pinlabel=PWMFI1
+T 300 900 3 8 0 1 0 5 1
+pintype=in
+}
+P 300 1200 0 1200 1 0 1
+{
+T 250 1225 5 8 1 1 0 6 1
+pinnumber=40
+T 300 1200 5 8 0 1 0 6 1
+pinseq=3
+T 400 1200 3 8 1 1 0 1 1
+pinlabel=PWMFI0
+T 300 1200 3 8 0 1 0 5 1
+pintype=in
+}
+P 1900 2100 2200 2100 1 0 1
+{
+T 1995 2145 5 8 1 1 0 0 1
+pinnumber=65
+T 1900 2100 5 8 0 1 0 0 1
+pinseq=4
+T 1845 2095 3 8 1 1 0 7 1
+pinlabel=PWML3
+T 1900 2100 3 8 0 1 0 5 1
+pintype=out
+}
+P 1900 2400 2200 2400 1 0 1
+{
+T 1995 2445 5 8 1 1 0 0 1
+pinnumber=39
+T 1900 2400 5 8 0 1 0 0 1
+pinseq=5
+T 1845 2395 3 8 1 1 0 7 1
+pinlabel=PWML3
+T 1900 2400 3 8 0 1 0 5 1
+pintype=out
+}
+P 300 1500 0 1500 1 0 1
+{
+T 250 1525 5 8 1 1 0 6 1
+pinnumber=19
+T 300 1500 5 8 0 1 0 6 1
+pinseq=6
+T 400 1500 3 8 1 1 0 1 1
+pinlabel=PWMH3
+T 300 1500 3 8 0 1 0 5 1
+pintype=out
+}
+P 300 1800 0 1800 1 0 1
+{
+T 250 1825 5 8 1 1 0 6 1
+pinnumber=15
+T 300 1800 5 8 0 1 0 6 1
+pinseq=7
+T 400 1800 3 8 1 1 0 1 1
+pinlabel=PWMH3
+T 300 1800 3 8 0 1 0 5 1
+pintype=out
+}
+P 300 2100 0 2100 1 0 1
+{
+T 250 2125 5 8 1 1 0 6 1
+pinnumber=7
+T 300 2100 5 8 0 1 0 6 1
+pinseq=8
+T 400 2100 3 8 1 1 0 1 1
+pinlabel=PWMH3
+T 300 2100 3 8 0 1 0 5 1
+pintype=out
+}
+P 1900 2700 2200 2700 1 0 1
+{
+T 1995 2745 5 8 1 1 0 0 1
+pinnumber=66
+T 1900 2700 5 8 0 1 0 0 1
+pinseq=9
+T 1845 2695 3 8 1 1 0 7 1
+pinlabel=PWML2
+T 1900 2700 3 8 0 1 0 5 1
+pintype=out
+}
+P 1900 3000 2200 3000 1 0 1
+{
+T 1995 3045 5 8 1 1 0 0 1
+pinnumber=38
+T 1900 3000 5 8 0 1 0 0 1
+pinseq=10
+T 1845 2995 3 8 1 1 0 7 1
+pinlabel=PWML2
+T 1900 3000 3 8 0 1 0 5 1
+pintype=out
+}
+P 300 2400 0 2400 1 0 1
+{
+T 250 2425 5 8 1 1 0 6 1
+pinnumber=92
+T 300 2400 5 8 0 1 0 6 1
+pinseq=11
+T 400 2400 3 8 1 1 0 1 1
+pinlabel=PWMH2
+T 300 2400 3 8 0 1 0 5 1
+pintype=out
+}
+P 300 2700 0 2700 1 0 1
+{
+T 250 2725 5 8 1 1 0 6 1
+pinnumber=32
+T 300 2700 5 8 0 1 0 6 1
+pinseq=12
+T 400 2700 3 8 1 1 0 1 1
+pinlabel=PWMH2
+T 300 2700 3 8 0 1 0 5 1
+pintype=out
+}
+P 300 3000 0 3000 1 0 1
+{
+T 250 3025 5 8 1 1 0 6 1
+pinnumber=16
+T 300 3000 5 8 0 1 0 6 1
+pinseq=13
+T 400 3000 3 8 1 1 0 1 1
+pinlabel=PWMH2
+T 300 3000 3 8 0 1 0 5 1
+pintype=out
+}
+P 300 3300 0 3300 1 0 1
+{
+T 250 3325 5 8 1 1 0 6 1
+pinnumber=12
+T 300 3300 5 8 0 1 0 6 1
+pinseq=14
+T 400 3300 3 8 1 1 0 1 1
+pinlabel=PWMH2
+T 300 3300 3 8 0 1 0 5 1
+pintype=out
+}
+P 1900 3300 2200 3300 1 0 1
+{
+T 1995 3345 5 8 1 1 0 0 1
+pinnumber=67
+T 1900 3300 5 8 0 1 0 0 1
+pinseq=15
+T 1845 3295 3 8 1 1 0 7 1
+pinlabel=PWML1
+T 1900 3300 3 8 0 1 0 5 1
+pintype=out
+}
+P 1900 3600 2200 3600 1 0 1
+{
+T 1995 3645 5 8 1 1 0 0 1
+pinnumber=37
+T 1900 3600 5 8 0 1 0 0 1
+pinseq=16
+T 1845 3595 3 8 1 1 0 7 1
+pinlabel=PWML1
+T 1900 3600 3 8 0 1 0 5 1
+pintype=out
+}
+P 300 3600 0 3600 1 0 1
+{
+T 250 3625 5 8 1 1 0 6 1
+pinnumber=91
+T 300 3600 5 8 0 1 0 6 1
+pinseq=17
+T 400 3600 3 8 1 1 0 1 1
+pinlabel=PWMH1
+T 300 3600 3 8 0 1 0 5 1
+pintype=out
+}
+P 300 3900 0 3900 1 0 1
+{
+T 250 3925 5 8 1 1 0 6 1
+pinnumber=85
+T 300 3900 5 8 0 1 0 6 1
+pinseq=18
+T 400 3900 3 8 1 1 0 1 1
+pinlabel=PWMH1
+T 300 3900 3 8 0 1 0 5 1
+pintype=out
+}
+P 300 4200 0 4200 1 0 1
+{
+T 250 4225 5 8 1 1 0 6 1
+pinnumber=69
+T 300 4200 5 8 0 1 0 6 1
+pinseq=19
+T 400 4200 3 8 1 1 0 1 1
+pinlabel=PWMH1
+T 300 4200 3 8 0 1 0 5 1
+pintype=out
+}
+P 300 4500 0 4500 1 0 1
+{
+T 250 4525 5 8 1 1 0 6 1
+pinnumber=31
+T 300 4500 5 8 0 1 0 6 1
+pinseq=20
+T 400 4500 3 8 1 1 0 1 1
+pinlabel=PWMH1
+T 300 4500 3 8 0 1 0 5 1
+pintype=out
+}
+P 1900 3900 2200 3900 1 0 1
+{
+T 1995 3945 5 8 1 1 0 0 1
+pinnumber=68
+T 1900 3900 5 8 0 1 0 0 1
+pinseq=21
+T 1845 3895 3 8 1 1 0 7 1
+pinlabel=PWML0
+T 1900 3900 3 8 0 1 0 5 1
+pintype=out
+}
+P 1900 4200 2200 4200 1 0 1
+{
+T 1995 4245 5 8 1 1 0 0 1
+pinnumber=33
+T 1900 4200 5 8 0 1 0 0 1
+pinseq=22
+T 1845 4195 3 8 1 1 0 7 1
+pinlabel=PWML0
+T 1900 4200 3 8 0 1 0 5 1
+pintype=out
+}
+P 300 4800 0 4800 1 0 1
+{
+T 250 4825 5 8 1 1 0 6 1
+pinnumber=95
+T 300 4800 5 8 0 1 0 6 1
+pinseq=23
+T 400 4800 3 8 1 1 0 1 1
+pinlabel=PWMH0
+T 300 4800 3 8 0 1 0 5 1
+pintype=out
+}
+P 300 5100 0 5100 1 0 1
+{
+T 250 5125 5 8 1 1 0 6 1
+pinnumber=90
+T 300 5100 5 8 0 1 0 6 1
+pinseq=24
+T 400 5100 3 8 1 1 0 1 1
+pinlabel=PWMH0
+T 300 5100 3 8 0 1 0 5 1
+pintype=out
+}
+P 300 5400 0 5400 1 0 1
+{
+T 250 5425 5 8 1 1 0 6 1
+pinnumber=84
+T 300 5400 5 8 0 1 0 6 1
+pinseq=25
+T 400 5400 3 8 1 1 0 1 1
+pinlabel=PWMH0
+T 300 5400 3 8 0 1 0 5 1
+pintype=out
+}
+P 300 5700 0 5700 1 0 1
+{
+T 250 5725 5 8 1 1 0 6 1
+pinnumber=30
+T 300 5700 5 8 0 1 0 6 1
+pinseq=26
+T 400 5700 3 8 1 1 0 1 1
+pinlabel=PWMH0
+T 300 5700 3 8 0 1 0 5 1
+pintype=out
+}
+B 300 300 1600 5700 3 10 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 0 0 0 1 0 0 0 0 1
+device=ATSAM3C2U
+T 0 0 0 1 0 0 0 0 1
+footprint=LQFP100
+T 0 0 0 1 0 0 0 0 1
+description=
+T 0 0 0 1 0 0 0 0 1
+numslots=0
+T 600 100 9 8 1 0 0 0 1
+ATSAM3C2U
+T 400 6100 8 8 1 1 0 0 1
+refdes=U?
