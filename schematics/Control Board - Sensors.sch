@@ -21,7 +21,7 @@ C 46500 52500 1 270 0 resistor.sym
 T 46900 52200 5 10 0 0 270 0 1
 device=RESISTOR
 T 46800 52300 5 8 1 1 270 0 1
-refdes=R?
+refdes=R16
 T 46800 52000 5 8 1 1 270 0 1
 value=?R
 }
@@ -30,14 +30,14 @@ C 46500 51000 1 270 0 resistor.sym
 T 46900 50700 5 10 0 0 270 0 1
 device=RESISTOR
 T 46800 50800 5 8 1 1 270 0 1
-refdes=R?
+refdes=R17
 T 46800 50500 5 8 1 1 270 0 1
 value=?R
 }
 C 46000 48800 1 0 0 transistor-NPN.sym
 {
 T 46900 49300 5 10 1 1 0 1 1
-refdes=Q?
+refdes=Q5
 T 46904 49706 5 10 0 0 0 0 1
 footprint=TO92
 }

@@ -108,7 +108,7 @@ C 52400 48000 1 0 1 connector-8x1.sym
 T 50600 49800 5 10 0 0 0 6 1
 device=CONNECTOR_6
 T 52300 51100 5 8 1 1 0 6 1
-refdes=H?
+refdes=H17
 T 52300 48100 5 8 1 1 0 6 1
 value=Header 8x1
 }

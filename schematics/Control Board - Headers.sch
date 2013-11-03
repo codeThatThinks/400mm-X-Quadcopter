@@ -77,7 +77,7 @@ C 44700 44400 1 270 0 resistor.sym
 T 45100 44100 5 10 0 0 270 0 1
 device=RESISTOR
 T 45000 43700 5 8 1 1 90 0 1
-refdes=R?
+refdes=R1
 T 45000 43900 5 8 1 1 90 0 1
 value=100K
 }
@@ -86,7 +86,7 @@ C 44300 44400 1 270 0 resistor.sym
 T 44700 44100 5 10 0 0 270 0 1
 device=RESISTOR
 T 44600 43700 5 8 1 1 90 0 1
-refdes=R?
+refdes=R2
 T 44600 43900 5 8 1 1 90 0 1
 value=100K
 }
@@ -95,7 +95,7 @@ C 43900 44400 1 270 0 resistor.sym
 T 44300 44100 5 10 0 0 270 0 1
 device=RESISTOR
 T 44200 43700 5 8 1 1 90 0 1
-refdes=R?
+refdes=R3
 T 44200 43900 5 8 1 1 90 0 1
 value=100K
 }
@@ -104,7 +104,7 @@ C 43500 44400 1 270 0 resistor.sym
 T 43900 44100 5 10 0 0 270 0 1
 device=RESISTOR
 T 43800 43700 5 8 1 1 90 0 1
-refdes=R?
+refdes=R4
 T 43800 43900 5 8 1 1 90 0 1
 value=100K
 }
@@ -150,7 +150,7 @@ C 50600 42200 1 0 0 resistor.sym
 T 50900 42600 5 10 0 0 0 0 1
 device=RESISTOR
 T 50800 42100 5 8 1 1 0 0 1
-refdes=R?
+refdes=R5
 T 51100 42100 5 8 1 1 0 0 1
 value=39R
 }
@@ -159,7 +159,7 @@ C 50900 42500 1 0 0 resistor.sym
 T 51200 42900 5 10 0 0 0 0 1
 device=RESISTOR
 T 51100 42700 5 8 1 1 0 0 1
-refdes=R?
+refdes=R6
 T 51400 42700 5 8 1 1 0 0 1
 value=39R
 }
@@ -187,7 +187,7 @@ C 60300 52800 1 0 0 connector-2x1.sym
 T 60500 53800 5 10 0 0 0 0 1
 device=CONNECTOR_2
 T 60400 54100 5 8 1 1 0 0 1
-refdes=H?
+refdes=H14
 T 60400 52900 5 8 1 1 0 0 1
 value=BAT
 }
@@ -210,7 +210,7 @@ C 43000 52000 1 0 0 connector-5x1.sym
 T 44800 53500 5 10 0 0 0 0 1
 device=CONNECTOR_5
 T 43100 54200 5 8 1 1 0 0 1
-refdes=H?
+refdes=H15
 T 43100 52100 5 8 1 1 0 0 1
 value=SMC
 }
@@ -262,7 +262,7 @@ C 42700 47800 1 0 0 connector-9x2.sym
 T 44500 49300 5 10 0 0 0 0 1
 device=CONNECTOR_5
 T 43100 51200 5 8 1 1 0 0 1
-refdes=H?
+refdes=H16
 T 43100 47900 5 8 1 1 0 0 1
 value=EBI
 }

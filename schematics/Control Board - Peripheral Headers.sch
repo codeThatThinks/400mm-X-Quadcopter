@@ -485,7 +485,7 @@ C 53000 51400 1 0 0 connector-6x1.sym
 T 54800 53200 5 10 0 0 0 0 1
 device=CONNECTOR_6
 T 53100 53900 5 8 1 1 0 0 1
-refdes=H?
+refdes=H18
 T 53100 51500 5 8 1 1 0 0 1
 value=GPIO
 }
@@ -523,7 +523,7 @@ C 53300 46300 1 0 0 connector-3x1.sym
 T 55100 47200 5 10 0 0 0 0 1
 device=CONNECTOR_3
 T 53400 47900 5 8 1 1 0 0 1
-refdes=H?
+refdes=H19
 T 53400 46400 5 8 1 1 0 0 1
 value=Temp
 }

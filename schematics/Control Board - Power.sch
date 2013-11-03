@@ -30,21 +30,21 @@ C 48100 52400 1 0 0 switch-spdt.sym
 T 48500 53200 5 10 0 0 0 0 1
 device=SPDT
 T 48500 53000 5 8 1 1 0 0 1
-refdes=PWR_SEL
+refdes=PWR_SEL1
 }
 C 49500 52600 1 0 0 switch-spst.sym
 {
 T 49900 53300 5 10 0 0 0 0 1
 device=SPST
 T 49800 52900 5 8 1 1 0 0 1
-refdes=PWR
+refdes=PWR1
 }
 C 49000 52300 1 270 0 capacitor.sym
 {
 T 49700 52100 5 10 0 0 270 0 1
 device=CAPACITOR
 T 49300 52000 5 8 1 1 0 0 1
-refdes=C?
+refdes=C20
 T 49900 52100 5 10 0 0 270 0 1
 symversion=0.1
 T 49300 51600 5 8 1 1 0 0 1
@@ -55,7 +55,7 @@ C 53000 52500 1 0 0 inductor.sym
 T 53200 53000 5 10 0 0 0 0 1
 device=INDUCTOR
 T 53100 52800 5 8 1 1 0 0 1
-refdes=L?
+refdes=L3
 T 53200 53200 5 10 0 0 0 0 1
 symversion=0.1
 T 53600 52800 5 8 1 1 0 0 1
@@ -80,14 +80,14 @@ C 55900 52300 1 270 0 diode-led.sym
 T 56550 51350 5 10 0 0 270 0 1
 device=LED
 T 56450 51850 5 8 1 1 0 0 1
-refdes=LED_PWR
+refdes=LED_PWR1
 }
 C 55000 52000 1 270 0 capacitor.sym
 {
 T 55700 51800 5 10 0 0 270 0 1
 device=CAPACITOR
 T 55300 51700 5 8 1 1 0 0 1
-refdes=C?
+refdes=C21
 T 55900 51800 5 10 0 0 270 0 1
 symversion=0.1
 T 55300 51300 5 8 1 1 0 0 1
@@ -98,7 +98,7 @@ C 56000 51100 1 270 0 resistor.sym
 T 56400 50800 5 10 0 0 270 0 1
 device=RESISTOR
 T 56300 50700 5 8 1 1 0 0 1
-refdes=R?
+refdes=R14
 T 56300 50400 5 8 1 1 0 0 1
 value=?R
 }
@@ -169,7 +169,7 @@ C 52500 47300 1 0 0 switch-push-no.sym
 T 52050 47100 5 10 0 0 0 0 1
 device=SWITCH_PUSHBUTTON_NC
 T 52700 47650 5 10 1 1 0 0 1
-refdes=ERASE
+refdes=ERASE1
 }
 C 52000 47600 1 0 0 power.sym
 {
@@ -184,7 +184,7 @@ C 53300 44900 1 90 0 resistor.sym
 T 52900 45200 5 10 0 0 90 0 1
 device=RESISTOR
 T 53500 45100 5 8 1 1 90 0 1
-refdes=R?
+refdes=R15
 T 53500 45400 5 8 1 1 90 0 1
 value=R8
 }
@@ -198,7 +198,7 @@ C 48800 47000 1 0 0 switch-push-no.sym
 T 48350 46800 5 10 0 0 0 0 1
 device=SWITCH_PUSHBUTTON_NC
 T 49100 47250 5 10 1 1 0 0 1
-refdes=PRGM
+refdes=PRGM1
 }
 C 48300 47300 1 0 0 power.sym
 {
