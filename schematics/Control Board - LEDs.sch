@@ -11,7 +11,7 @@ C 45600 53500 1 270 0 diode-led.sym
 T 46250 52550 5 10 0 0 270 0 1
 device=LED
 T 46150 52950 5 8 1 1 0 0 1
-refdes=LED_ARED
+refdes=LED_ARED1
 }
 C 45600 50200 1 0 0 gnd.sym
 {
@@ -23,7 +23,7 @@ C 45700 52600 1 270 0 resistor.sym
 T 46100 52300 5 10 0 0 270 0 1
 device=RESISTOR
 T 46100 51900 5 8 1 1 90 0 1
-refdes=R?
+refdes=R7
 T 46100 52200 5 8 1 1 90 0 1
 value=?R
 }
@@ -35,7 +35,7 @@ pinlabel=+3.3v
 C 45200 50700 1 0 0 transistor-NPN.sym
 {
 T 46100 51200 5 10 1 1 0 1 1
-refdes=Q?
+refdes=Q1
 T 46104 51606 5 10 0 0 0 0 1
 footprint=TO92
 }
@@ -44,7 +44,7 @@ C 48500 53500 1 270 0 diode-led.sym
 T 49150 52550 5 10 0 0 270 0 1
 device=LED
 T 49050 52950 5 8 1 1 0 0 1
-refdes=LED_AGRN
+refdes=LED_AGRN1
 }
 C 48500 50200 1 0 0 gnd.sym
 {
@@ -56,7 +56,7 @@ C 48600 52600 1 270 0 resistor.sym
 T 49000 52300 5 10 0 0 270 0 1
 device=RESISTOR
 T 49000 51900 5 8 1 1 90 0 1
-refdes=R?
+refdes=R8
 T 49000 52200 5 8 1 1 90 0 1
 value=?R
 }
@@ -68,7 +68,7 @@ pinlabel=+3.3v
 C 48100 50700 1 0 0 transistor-NPN.sym
 {
 T 49000 51200 5 10 1 1 0 1 1
-refdes=Q?
+refdes=Q2
 T 49004 51606 5 10 0 0 0 0 1
 footprint=TO92
 }
@@ -80,7 +80,7 @@ C 54300 53500 1 270 0 diode-led.sym
 T 54950 52550 5 10 0 0 270 0 1
 device=LED
 T 54850 52950 5 8 1 1 0 0 1
-refdes=LED_SFNT
+refdes=LED_SFNT1
 }
 C 54300 50200 1 0 0 gnd.sym
 {
@@ -92,7 +92,7 @@ C 54400 52600 1 270 0 resistor.sym
 T 54800 52300 5 10 0 0 270 0 1
 device=RESISTOR
 T 54800 51900 5 8 1 1 90 0 1
-refdes=R?
+refdes=R9
 T 54800 52200 5 8 1 1 90 0 1
 value=?R
 }
@@ -104,7 +104,7 @@ pinlabel=+3.3v
 C 53900 50700 1 0 0 transistor-NPN.sym
 {
 T 54800 51200 5 10 1 1 0 1 1
-refdes=Q?
+refdes=Q3
 T 54804 51606 5 10 0 0 0 0 1
 footprint=TO92
 }
@@ -113,7 +113,7 @@ C 57100 53500 1 270 0 diode-led.sym
 T 57750 52550 5 10 0 0 270 0 1
 device=LED
 T 57650 52950 5 8 1 1 0 0 1
-refdes=LED_SBCK
+refdes=LED_SBCK1
 }
 C 57100 50200 1 0 0 gnd.sym
 {
@@ -125,7 +125,7 @@ C 57200 52600 1 270 0 resistor.sym
 T 57600 52300 5 10 0 0 270 0 1
 device=RESISTOR
 T 57600 51900 5 8 1 1 90 0 1
-refdes=R?
+refdes=R10
 T 57600 52200 5 8 1 1 90 0 1
 value=?R
 }
@@ -137,7 +137,7 @@ pinlabel=+3.3v
 C 56700 50700 1 0 0 transistor-NPN.sym
 {
 T 57600 51200 5 10 1 1 0 1 1
-refdes=Q?
+refdes=Q4
 T 57604 51606 5 10 0 0 0 0 1
 footprint=TO92
 }
