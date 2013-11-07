@@ -1,2 +1,61 @@
-Quantity,	Item,	URL,	Cost
-,			,		,		Total: $0.00
+Quantity,	References,							Item,						URL,			Cost
+ICs,
+1,			U1,									ATSAM3U2C,					,																											$6.19
+1,			U2,									LM2596S-3.3,				,																											$4.05
+,
+Inductors,
+2,			L1-L2,								10uH/100mA inductor,		,																											$0.00
+,
+Capacitors,
+4,			C6 C12 C15 C17,						4.7uF 0805 capacitor,		,																											$0.00
+14,			C1-C5 C7-C11 C13-C14 C16 C18,		100nF 0805 capacitor,		,																											$0.00
+1,			C19,								10pF 0805 capacitor,		,																											$0.00
+1,			C20,								switching capacitor,		,																											$0.00
+1,			C21,								switching capacitor,		,																											$0.00
+1,			C22,								100pF 0805 capacitor,		,																											$0.00
+4,			C23-C26,							18pF 0805 capacitor,		,																											$0.00
+,
+Diodes,
+1,			D1,									switching schkotty diode,	,																											$0.00
+1,			LED_PWR,							0805 blue led,				,																											$0.00
+3,			LED_ARED LED_SFNT LED_SBCK,			0805 red led,				,																											$0.00
+1,			LED_AGRN,							0805 green led,				,																											$0.00
+,
+Resistors,
+5,			R1-R4 R24,							100K 0805 resistor,			,																											$0.00
+2,			R5-R6,								39R 0805 resistor,			,																											$0.00
+1,			R8,									green 0805 led resistor,	,																											$0.00
+3,			R7 R9-R10,							red 0805 led resistor,		,																											$0.00
+2,			R11-R12,							1R 0805 resistor,			,																											$0.00
+1,			R13,								6R8 0805 resistor,			,																											$0.00
+1,			R14,								blue 0805 led resistor,		,																											$0.00
+1,			R15,								R8 0805 resistor,			,																											$0.00
+1,			R16,								1K 0805 resistor,			,																											$0.00
+1,			R17,								270R 0805 resistor,			,																											$0.00
+5,			R18-22,								10K 0805 resistor,			,																											$0.00
+1,			R23,								2K 0805 resistor,			,																											$0.00
+,
+Transistors,
+5,			Q1-Q5,								NPN transistor,				,																											$0.00
+1,			Q6,									P-Channel MOSFET,			,																											$0.00
+,
+Switches,
+1,			PWR,								STSP power on/off switch,	,																											$0.00
+1,			PWR_SEL,							STDP power select switch,	,																											$0.00
+1,			PRGM ERASE,							momentary push button,		,																											$0.00
+,
+Headers,
+4,			H1-H4,								2x3 arm header,				,																											$0.00
+5,			H5-H8 H18,							1x6 header,					,																											$0.00
+1,			H9,									2x5 JTAG header,			,																											$0.00
+1,			H10 H13,							1x4 header,					,																											$0.00
+1,			H14,								1x2 3amp header,			,																											$0.00
+3,			H11-H12 H15,						1x5 header,					,																											$0.00
+1,			H16,								2x9 EBI header,				,																											$0.00
+1,			H17,								1x8 GPIO header,			,																											$0.00
+1,			H19,								1x3 Temp header,			,																											$0.00
+,
+Misc,
+1,			USB1,								Mini USB B socket,			,																											$0.00
+1,			SD1,								Micro SD socket,			http://www.mouser.com/ProductDetail/ALPS/SCHD3A0100/?qs=sGAEpiMZZMuJakaoiLiBpogHQ8AEN5F%2fewY8Ig3UUws%3d,	$0.00
+,			,									,							,																											Total: $12.18
