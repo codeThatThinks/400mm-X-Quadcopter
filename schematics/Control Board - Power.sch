@@ -88,7 +88,7 @@ C 56500 52300 1 270 0 diode-led.sym
 T 57150 51350 5 10 0 0 270 0 1
 device=LED
 T 57099 51901 5 8 1 1 0 0 1
-refdes=LED_PWR1
+refdes=LED_PWR
 T 57100 51500 5 8 1 1 0 0 1
 value=Blue
 T 57100 51700 5 8 1 1 0 0 1
