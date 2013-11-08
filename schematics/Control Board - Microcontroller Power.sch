@@ -360,12 +360,14 @@ C 46600 51500 1 270 0 inductor.sym
 {
 T 47100 51300 5 10 0 0 270 0 1
 device=INDUCTOR
-T 46900 51100 5 8 1 1 0 0 1
+T 46900 51200 5 8 1 1 0 0 1
 refdes=L1
 T 47300 51300 5 10 0 0 270 0 1
 symversion=0.1
 T 46900 50800 5 8 1 1 0 0 1
 value=10uH/100mA
+T 46900 51000 5 8 1 1 0 0 1
+footprint=0805
 }
 C 45500 50200 1 0 0 resistor.sym
 {
@@ -430,12 +432,14 @@ C 43400 54700 1 270 0 inductor.sym
 {
 T 43900 54500 5 10 0 0 270 0 1
 device=INDUCTOR
-T 43700 54300 5 8 1 1 0 0 1
+T 43700 54400 5 8 1 1 0 0 1
 refdes=L2
 T 44100 54500 5 10 0 0 270 0 1
 symversion=0.1
 T 43700 54000 5 8 1 1 0 0 1
 value=10uH/100mA
+T 43700 54200 5 8 1 1 0 0 1
+footprint=0805
 }
 C 42300 53400 1 0 0 resistor.sym
 {
