@@ -211,7 +211,7 @@ device=RESISTOR
 T 53400 45500 5 8 1 1 0 0 1
 refdes=R15
 T 53400 45100 5 8 1 1 0 0 1
-value=R8
+value=1R
 T 53400 45300 5 8 1 1 0 0 1
 footprint=0805
 }
