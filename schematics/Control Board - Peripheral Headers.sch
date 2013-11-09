@@ -14,6 +14,8 @@ T 43100 54600 5 8 1 1 0 0 1
 refdes=H1
 T 43100 53100 5 8 1 1 0 0 1
 value=Arm 1
+T 42700 53000 5 10 0 1 0 0 1
+footprint=HEADER-3x2-90DEGREES-SHROUDED
 }
 C 44000 52800 1 0 0 gnd.sym
 {
@@ -50,6 +52,8 @@ T 43100 52100 5 8 1 1 0 0 1
 refdes=H2
 T 43100 50600 5 8 1 1 0 0 1
 value=Arm 2
+T 42700 50500 5 10 0 1 0 0 1
+footprint=HEADER-3x2-90DEGREES-SHROUDED
 }
 C 44000 50300 1 0 0 gnd.sym
 {
@@ -86,6 +90,8 @@ T 43100 49600 5 8 1 1 0 0 1
 refdes=H3
 T 43100 48100 5 8 1 1 0 0 1
 value=Arm 3
+T 42700 48000 5 10 0 1 0 0 1
+footprint=HEADER-3x2-90DEGREES-SHROUDED
 }
 C 44000 47800 1 0 0 gnd.sym
 {
@@ -122,6 +128,8 @@ T 43100 47100 5 8 1 1 0 0 1
 refdes=H4
 T 43100 45600 5 8 1 1 0 0 1
 value=Arm 4
+T 42700 45500 5 10 0 1 0 0 1
+footprint=HEADER-3x2-90DEGREES-SHROUDED
 }
 C 44000 45300 1 0 0 gnd.sym
 {
@@ -158,6 +166,8 @@ T 46500 54600 5 8 1 1 0 0 1
 refdes=H5
 T 46500 52200 5 8 1 1 0 0 1
 value=SPI 1
+T 46400 52100 5 10 0 1 0 0 1
+footprint=HEADER-3x2
 }
 C 46400 48800 1 0 0 connector-6x1.sym
 {
@@ -167,6 +177,8 @@ T 46500 51300 5 8 1 1 0 0 1
 refdes=H6
 T 46500 48900 5 8 1 1 0 0 1
 value=SPI 2
+T 46400 48800 5 10 0 1 0 0 1
+footprint=HEADER-3x2
 }
 C 46400 45500 1 0 0 connector-6x1.sym
 {
@@ -176,6 +188,8 @@ T 46500 48000 5 8 1 1 0 0 1
 refdes=H7
 T 46500 45600 5 8 1 1 0 0 1
 value=SPI 3
+T 46400 45500 5 10 0 1 0 0 1
+footprint=HEADER-3x2
 }
 C 46400 42200 1 0 0 connector-6x1.sym
 {
@@ -185,6 +199,8 @@ T 46500 44700 5 8 1 1 0 0 1
 refdes=H8
 T 46500 42300 5 8 1 1 0 0 1
 value=SPI 4
+T 46400 42200 5 10 0 1 0 0 1
+footprint=HEADER-3x2
 }
 C 50100 51800 1 0 0 ATSAM3C2U_SPI.sym
 {
@@ -314,6 +330,8 @@ T 41500 43300 5 8 1 1 0 0 1
 refdes=H13
 T 41500 41500 5 8 1 1 0 0 1
 value=I2C
+T 41400 41400 5 10 0 1 0 0 1
+footprint=HEADER-4x1
 }
 C 42200 41200 1 0 0 gnd.sym
 {
@@ -352,6 +370,8 @@ T 58500 54500 5 8 1 1 0 0 1
 refdes=H10
 T 58500 52700 5 8 1 1 0 0 1
 value=UART
+T 58400 52600 5 10 0 1 0 0 1
+footprint=HEADER-4x1
 }
 C 59200 54400 1 0 0 power.sym
 {
@@ -418,6 +438,8 @@ T 58600 49400 5 8 1 1 0 0 1
 refdes=H11
 T 58600 47300 5 8 1 1 0 0 1
 value=USART 1
+T 58500 47200 5 10 0 1 0 0 1
+footprint=HEADER-5x1
 }
 C 58500 44200 1 0 0 connector-5x1.sym
 {
@@ -427,6 +449,8 @@ T 58600 46400 5 8 1 1 0 0 1
 refdes=H12
 T 58600 44300 5 8 1 1 0 0 1
 value=USART 2
+T 58500 44200 5 10 0 1 0 0 1
+footprint=HEADER-5x1
 }
 N 59200 46000 59800 46000 4
 N 59200 45700 59800 45700 4
@@ -527,6 +551,8 @@ T 53100 53900 5 8 1 1 0 0 1
 refdes=H18
 T 53100 51500 5 8 1 1 0 0 1
 value=GPIO
+T 53000 51400 5 10 0 1 0 0 1
+footprint=HEADER-6x1
 }
 C 54000 50800 1 0 0 gnd.sym
 {
@@ -566,6 +592,8 @@ T 52400 48400 5 8 1 1 0 0 1
 refdes=H19
 T 52400 46900 5 8 1 1 0 0 1
 value=Temp
+T 52300 46800 5 10 0 1 0 0 1
+footprint=HEADER-3x1
 }
 C 53900 46500 1 0 0 ATSAM3C2U_ADC_12-bit.sym
 {
@@ -603,6 +631,8 @@ T 53500 45000 5 8 1 1 0 0 1
 refdes=H20
 T 53500 43800 5 8 1 1 0 0 1
 value=SFNT
+T 53400 43700 5 10 0 1 0 0 1
+footprint=HEADER-2x1
 }
 C 53400 41500 1 0 0 connector-2x1.sym
 {
@@ -612,6 +642,8 @@ T 53500 42800 5 8 1 1 0 0 1
 refdes=H21
 T 53500 41600 5 8 1 1 0 0 1
 value=SBCK
+T 53400 41500 5 10 0 1 0 0 1
+footprint=HEADER-2x1
 }
 C 54200 44900 1 0 0 power.sym
 {
