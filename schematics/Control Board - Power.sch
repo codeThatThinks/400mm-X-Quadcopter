@@ -35,6 +35,8 @@ T 48500 53200 5 10 0 0 0 0 1
 device=SPDT
 T 48500 53000 5 8 1 1 0 0 1
 refdes=PWR_SEL
+T 48100 52400 5 10 0 0 0 0 1
+footprint=SWITCH-90DEGREES-SEL
 }
 C 49500 52600 1 0 0 switch-spst.sym
 {
@@ -42,6 +44,8 @@ T 49900 53300 5 10 0 0 0 0 1
 device=SPST
 T 49800 52900 5 8 1 1 0 0 1
 refdes=PWR
+T 49500 52600 5 10 0 0 0 0 1
+footprint=SWITCH-90DEGREES-PWR
 }
 C 49000 52300 1 270 0 capacitor.sym
 {
@@ -191,7 +195,7 @@ refdes=U1
 C 52500 47300 1 0 0 switch-push-no.sym
 {
 T 52050 47100 5 10 0 0 0 0 1
-device=SWITCH_PUSHBUTTON_NC
+device=SWITCH-MOMENTARY-NC
 T 52800 47650 5 8 1 1 0 0 1
 refdes=ERASE
 }
@@ -225,7 +229,7 @@ net=GND:1
 C 48800 47000 1 0 0 switch-push-no.sym
 {
 T 48350 46800 5 10 0 0 0 0 1
-device=SWITCH_PUSHBUTTON_NC
+device=SWITCH-MOMENTARY-NC
 T 49100 47350 5 8 1 1 0 0 1
 refdes=PRGM
 }
