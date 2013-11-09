@@ -11,7 +11,7 @@ C 52900 49200 1 0 0 ATSAM3C2U_Oscillators.sym
 T 52900 49200 5 1 0 0 0 0 1
 device=ATSAM3C2U
 T 52900 49200 5 1 0 0 0 0 1
-footprint=LQFP100
+footprint=LQFP100 0.5
 T 53300 51700 5 8 1 1 0 0 1
 refdes=U1
 }
