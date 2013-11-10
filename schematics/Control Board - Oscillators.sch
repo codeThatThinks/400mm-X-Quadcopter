@@ -52,7 +52,7 @@ refdes=C25
 T 52000 49000 5 10 0 0 270 0 1
 symversion=0.1
 T 51600 48500 5 8 1 1 0 0 1
-value=18pF
+value=17pF
 T 51600 48700 5 8 1 1 0 0 1
 footprint=0805
 }
@@ -65,7 +65,7 @@ refdes=C26
 T 53300 49000 5 10 0 0 270 0 1
 symversion=0.1
 T 52900 48500 5 8 1 1 0 0 1
-value=18pF
+value=17pF
 T 52900 48700 5 8 1 1 0 0 1
 footprint=0805
 }
@@ -88,7 +88,7 @@ refdes=C24
 T 50800 49600 5 10 0 0 270 0 1
 symversion=0.1
 T 50400 49100 5 8 1 1 0 0 1
-value=18pF
+value=6pF
 T 50400 49300 5 8 1 1 0 0 1
 footprint=0805
 }
@@ -101,7 +101,7 @@ refdes=C23
 T 49500 49600 5 10 0 0 270 0 1
 symversion=0.1
 T 49100 49100 5 8 1 1 0 0 1
-value=18pF
+value=6pF
 T 49100 49300 5 8 1 1 0 0 1
 footprint=0805
 }
