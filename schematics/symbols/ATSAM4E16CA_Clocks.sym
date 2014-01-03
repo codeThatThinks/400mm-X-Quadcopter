@@ -1,0 +1,157 @@
+v 20110115 2
+P 300 1300 0 1300 1 0 1
+{
+T 250 1325 5 8 1 1 0 6 1
+pinnumber=98
+T 300 1300 5 8 0 1 0 6 1
+pinseq=1
+T 400 1300 3 8 1 1 0 1 1
+pinlabel=XOUT
+T 300 1300 3 8 0 1 0 5 1
+pintype=clk
+}
+P 300 1600 0 1600 1 0 1
+{
+T 250 1625 5 8 1 1 0 6 1
+pinnumber=99
+T 300 1600 5 8 0 1 0 6 1
+pinseq=2
+T 400 1600 3 8 1 1 0 1 1
+pinlabel=XIN
+T 300 1600 3 8 0 1 0 5 1
+pintype=clk
+}
+P 300 1900 0 1900 1 0 1
+{
+T 250 1925 5 8 1 1 0 6 1
+pinnumber=25
+T 300 1900 5 8 0 1 0 6 1
+pinseq=3
+T 400 1900 3 8 1 1 0 1 1
+pinlabel=XOUT32
+T 300 1900 3 8 0 1 0 5 1
+pintype=clk
+}
+P 300 2200 0 2200 1 0 1
+{
+T 250 2225 5 8 1 1 0 6 1
+pinnumber=24
+T 300 2200 5 8 0 1 0 6 1
+pinseq=4
+T 400 2200 3 8 1 1 0 1 1
+pinlabel=XIN32
+T 300 2200 3 8 0 1 0 5 1
+pintype=clk
+}
+P 1800 600 2100 600 1 0 1
+{
+T 1850 625 5 8 1 1 0 0 1
+pinnumber=11
+T 1800 600 5 8 0 1 0 6 1
+pinseq=5
+T 1700 600 3 8 1 1 0 7 1
+pinlabel=RTCOUT1
+T 1800 600 3 8 0 1 0 5 1
+pintype=clk
+}
+P 1800 900 2100 900 1 0 1
+{
+T 1850 925 5 8 1 1 0 0 1
+pinnumber=12
+T 1800 900 5 8 0 1 0 6 1
+pinseq=6
+T 1700 900 3 8 1 1 0 7 1
+pinlabel=RTCOUT0
+T 1800 900 3 8 0 1 0 5 1
+pintype=clk
+}
+P 1800 1200 2100 1200 1 0 1
+{
+T 1850 1225 5 8 1 1 0 0 1
+pinnumber=83
+T 1800 1200 5 8 0 1 0 6 1
+pinseq=7
+T 1700 1200 3 8 1 1 0 7 1
+pinlabel=PCK2
+T 1800 1200 3 8 0 1 0 5 1
+pintype=clk
+}
+P 1800 1500 2100 1500 1 0 1
+{
+T 1850 1525 5 8 1 1 0 0 1
+pinnumber=20
+T 1800 1500 5 8 0 1 0 6 1
+pinseq=8
+T 1700 1500 3 8 1 1 0 7 1
+pinlabel=PCK2
+T 1800 1500 3 8 0 1 0 5 1
+pintype=clk
+}
+P 1800 1800 2100 1800 1 0 1
+{
+T 1850 1825 5 8 1 1 0 0 1
+pinnumber=15
+T 1800 1800 5 8 0 1 0 6 1
+pinseq=9
+T 1700 1800 3 8 1 1 0 7 1
+pinlabel=PCK2
+T 1800 1800 3 8 0 1 0 5 1
+pintype=clk
+}
+P 1800 2100 2100 2100 1 0 1
+{
+T 1850 2125 5 8 1 1 0 0 1
+pinnumber=21
+T 1800 2100 5 8 0 1 0 6 1
+pinseq=10
+T 1700 2100 3 8 1 1 0 7 1
+pinlabel=PCK1
+T 1800 2100 3 8 0 1 0 5 1
+pintype=clk
+}
+P 1800 2400 2100 2400 1 0 1
+{
+T 1850 2425 5 8 1 1 0 0 1
+pinnumber=16
+T 1800 2400 5 8 0 1 0 6 1
+pinseq=11
+T 1700 2400 3 8 1 1 0 7 1
+pinlabel=PCK1
+T 1800 2400 3 8 0 1 0 5 1
+pintype=clk
+}
+P 1800 2700 2100 2700 1 0 1
+{
+T 1850 2725 5 8 1 1 0 0 1
+pinnumber=100
+T 1800 2700 5 8 0 1 0 6 1
+pinseq=12
+T 1700 2700 3 8 1 1 0 7 1
+pinlabel=PCK0
+T 1800 2700 3 8 0 1 0 5 1
+pintype=clk
+}
+P 1800 3000 2100 3000 1 0 1
+{
+T 1850 3025 5 8 1 1 0 0 1
+pinnumber=81
+T 1800 3000 5 8 0 1 0 6 1
+pinseq=13
+T 1700 3000 3 8 1 1 0 7 1
+pinlabel=PCK0
+T 1800 3000 3 8 0 1 0 5 1
+pintype=clk
+}
+B 300 300 1500 3000 3 10 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 0 0 0 1 0 0 0 0 1
+device=ATSAM4E16CA
+T 0 0 0 1 0 0 0 0 1
+footprint=LQFP100
+T 0 0 0 1 0 0 0 0 1
+description=
+T 0 0 0 1 0 0 0 0 1
+numslots=0
+T 500 100 9 8 1 0 0 0 1
+ATSAM4E16CA
+T 400 3400 8 8 1 1 0 0 1
+refdes=U?
