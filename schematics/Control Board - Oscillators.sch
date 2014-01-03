@@ -79,7 +79,7 @@ refdes=C24
 T 50400 48800 5 10 0 0 270 0 1
 symversion=0.1
 T 50000 48300 5 8 1 1 0 0 1
-value=6pF
+value=22pF
 T 50000 48500 5 8 1 1 0 0 1
 footprint=0805
 }
@@ -92,7 +92,7 @@ refdes=C23
 T 49100 48800 5 10 0 0 270 0 1
 symversion=0.1
 T 48700 48300 5 8 1 1 0 0 1
-value=6pF
+value=22pF
 T 48700 48500 5 8 1 1 0 0 1
 footprint=0805
 }
