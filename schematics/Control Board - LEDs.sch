@@ -22,7 +22,7 @@ C 50100 48700 1 270 0 resistor.sym
 T 50500 48400 5 10 0 0 270 0 1
 device=RESISTOR
 T 50400 48400 5 8 1 1 0 0 1
-refdes=R7
+refdes=R30
 T 50400 48000 5 8 1 1 0 0 1
 value=75R
 T 50400 48200 5 8 1 1 0 0 1
@@ -44,9 +44,9 @@ C 53000 48700 1 270 0 resistor.sym
 T 53400 48400 5 10 0 0 270 0 1
 device=RESISTOR
 T 53300 48400 5 8 1 1 0 0 1
-refdes=R8
+refdes=R31
 T 53300 48000 5 8 1 1 0 0 1
-value=56R
+value=60R4
 T 53300 48200 5 8 1 1 0 0 1
 footprint=0805
 }

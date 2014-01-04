@@ -1,10 +1,10 @@
 v 20110115 2
 C 40000 40000 0 0 0 title-bordered-A2.sym
-T 59700 41700 9 8 1 0 0 1 1
+T 59700 41700 9 10 1 0 0 1 1
 Microcontroller Oscillators
-T 60000 41100 9 8 1 0 0 1 1
+T 60000 41100 9 10 1 0 0 1 1
 Quadcopter Control Board
-T 60100 40500 9 8 1 0 0 1 1
+T 60100 40500 9 10 1 0 0 1 1
 Ian Glen <ian@ianglen.me>
 C 51200 48600 1 0 0 crystal.sym
 {
@@ -39,7 +39,7 @@ C 50700 48400 1 270 0 capacitor.sym
 T 51400 48200 5 10 0 0 270 0 1
 device=CAPACITOR
 T 51200 48100 5 8 1 1 0 0 1
-refdes=C25
+refdes=C20
 T 51600 48200 5 10 0 0 270 0 1
 symversion=0.1
 T 51200 47700 5 8 1 1 0 0 1
@@ -52,7 +52,7 @@ C 52000 48400 1 270 0 capacitor.sym
 T 52700 48200 5 10 0 0 270 0 1
 device=CAPACITOR
 T 52500 48100 5 8 1 1 0 0 1
-refdes=C26
+refdes=C21
 T 52900 48200 5 10 0 0 270 0 1
 symversion=0.1
 T 52500 47700 5 8 1 1 0 0 1
@@ -75,7 +75,7 @@ C 49500 49000 1 270 0 capacitor.sym
 T 50200 48800 5 10 0 0 270 0 1
 device=CAPACITOR
 T 50000 48700 5 8 1 1 0 0 1
-refdes=C24
+refdes=C19
 T 50400 48800 5 10 0 0 270 0 1
 symversion=0.1
 T 50000 48300 5 8 1 1 0 0 1
@@ -88,7 +88,7 @@ C 48200 49000 1 270 0 capacitor.sym
 T 48900 48800 5 10 0 0 270 0 1
 device=CAPACITOR
 T 48700 48700 5 8 1 1 0 0 1
-refdes=C23
+refdes=C18
 T 49100 48800 5 10 0 0 270 0 1
 symversion=0.1
 T 48700 48300 5 8 1 1 0 0 1
@@ -118,5 +118,5 @@ device=ATSAM4E16CA
 T 52800 47700 5 1 0 0 0 0 1
 footprint=LQFP100
 T 53200 51100 5 8 1 1 0 0 1
-refdes=U?
+refdes=U1
 }
