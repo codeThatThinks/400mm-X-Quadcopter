@@ -15,7 +15,7 @@ refdes=J6
 T 42600 51900 5 8 1 1 0 0 1
 value=Arm 1
 T 42200 51800 5 10 0 1 0 0 1
-footprint=HEADER-3x2-90DEGREES-SHROUDED
+footprint=HEADER-ARM
 }
 C 43500 51600 1 0 0 gnd.sym
 {
@@ -46,7 +46,7 @@ refdes=J7
 T 42600 49400 5 8 1 1 0 0 1
 value=Arm 2
 T 42200 49300 5 10 0 1 0 0 1
-footprint=HEADER-3x2-90DEGREES-SHROUDED
+footprint=HEADER-ARM
 }
 C 43500 49100 1 0 0 gnd.sym
 {
@@ -77,7 +77,7 @@ refdes=J8
 T 42600 46900 5 8 1 1 0 0 1
 value=Arm 3
 T 42200 46800 5 10 0 1 0 0 1
-footprint=HEADER-3x2-90DEGREES-SHROUDED
+footprint=HEADER-ARM
 }
 C 43500 46600 1 0 0 gnd.sym
 {
@@ -108,7 +108,7 @@ refdes=J9
 T 42600 44400 5 8 1 1 0 0 1
 value=Arm 4
 T 42200 44300 5 10 0 1 0 0 1
-footprint=HEADER-3x2-90DEGREES-SHROUDED
+footprint=HEADER-ARM
 }
 C 43500 44100 1 0 0 gnd.sym
 {
@@ -139,7 +139,7 @@ refdes=J10
 T 47500 49000 5 8 1 1 0 0 1
 value=SPI 2
 T 47400 48900 5 10 0 1 0 0 1
-footprint=HEADER-3x2
+footprint=CONNECTOR 6 1
 }
 C 47400 45600 1 0 0 connector-6x1.sym
 {
@@ -150,7 +150,7 @@ refdes=J11
 T 47500 45700 5 8 1 1 0 0 1
 value=SPI 3
 T 47400 45600 5 10 0 1 0 0 1
-footprint=HEADER-3x2
+footprint=CONNECTOR 6 1
 }
 C 47400 42300 1 0 0 connector-6x1.sym
 {
@@ -161,14 +161,14 @@ refdes=J12
 T 47500 42400 5 8 1 1 0 0 1
 value=SPI 4
 T 47400 42300 5 10 0 1 0 0 1
-footprint=HEADER-3x2
+footprint=CONNECTOR 6 1
 }
 C 50800 50100 1 0 0 ATSAM4E16CA_SPI.sym
 {
 T 50800 50100 5 1 0 0 0 0 1
 device=ATSAM4E16CA
 T 50800 50100 5 1 0 0 0 0 1
-footprint=LQFP100 0.5
+footprint=LQFP100
 T 51200 54700 5 8 1 1 0 0 1
 refdes=U1
 }
@@ -266,7 +266,7 @@ refdes=J16
 T 57700 45100 5 8 1 1 0 0 1
 value=IMU
 T 57600 45000 5 10 0 1 0 0 1
-footprint=HEADER-4x1
+footprint=CONNECTOR 4 1
 }
 C 58400 44800 1 0 0 gnd.sym
 {
@@ -289,7 +289,7 @@ C 59900 52300 1 0 0 ATSAM4E16CA_UART.sym
 T 59900 52300 5 1 0 0 0 0 1
 device=ATSAM4E16CA
 T 59900 52300 5 1 0 0 0 0 1
-footprint=LQFP100 0.5
+footprint=LQFP100
 T 60300 54200 5 8 1 1 0 0 1
 refdes=U1
 }
@@ -302,7 +302,7 @@ refdes=J5
 T 58700 52100 5 8 1 1 0 0 1
 value=GPS
 T 58600 52000 5 10 0 1 0 0 1
-footprint=HEADER-4x1
+footprint=CONNECTOR 4 1
 }
 C 59400 53800 1 0 0 power.sym
 {
@@ -329,9 +329,9 @@ C 41900 52600 1 0 1 io.sym
 T 41700 53200 5 10 0 0 0 6 1
 device=none
 T 41700 52700 5 8 1 1 0 7 1
-value=PWM0
+value=PWM1
 T 41000 52800 5 10 0 0 0 6 1
-net=PWM1:1
+net=PWM:1
 }
 C 41900 52300 1 0 1 io.sym
 {
@@ -347,9 +347,9 @@ C 41900 50100 1 0 1 io.sym
 T 41700 50700 5 10 0 0 0 6 1
 device=none
 T 41700 50200 5 8 1 1 0 7 1
-value=PWM1
+value=PWM2
 T 41000 50300 5 10 0 0 0 6 1
-net=PWM2:1
+net=PWM:2
 }
 C 41900 49800 1 0 1 io.sym
 {
@@ -365,9 +365,9 @@ C 41900 47600 1 0 1 io.sym
 T 41700 48200 5 10 0 0 0 6 1
 device=none
 T 41700 47700 5 8 1 1 0 7 1
-value=PWM2
+value=PWM3
 T 41000 47800 5 10 0 0 0 6 1
-net=PWM3:1
+net=PWM:3
 }
 C 41900 47300 1 0 1 io.sym
 {
@@ -383,9 +383,9 @@ C 41900 45100 1 0 1 io.sym
 T 41700 45700 5 10 0 0 0 6 1
 device=none
 T 41700 45200 5 8 1 1 0 7 1
-value=PWM3
+value=PWM4
 T 41000 45300 5 10 0 0 0 6 1
-net=PWM4:1
+net=PWM:4
 }
 C 41900 44800 1 0 1 io.sym
 {
@@ -405,7 +405,7 @@ refdes=J15
 T 59000 49600 5 8 1 1 0 0 1
 value=Temp
 T 58900 49500 5 10 0 1 0 0 1
-footprint=HEADER-3x1
+footprint=CONNECTOR 3 1
 }
 C 59700 49300 1 0 0 gnd.sym
 {
@@ -427,7 +427,7 @@ refdes=J13
 T 54000 49900 5 8 1 1 0 0 1
 value=SFNT
 T 53900 49800 5 10 0 1 0 0 1
-footprint=HEADER-2x1
+footprint=CONNECTOR 2 1
 }
 C 56500 49800 1 0 0 connector-2x1.sym
 {
@@ -438,7 +438,7 @@ refdes=J14
 T 56600 49900 5 8 1 1 0 0 1
 value=SBCK
 T 56500 49800 5 10 0 1 0 0 1
-footprint=HEADER-2x1
+footprint=CONNECTOR 2 1
 }
 C 54900 50600 1 0 0 io.sym
 {
@@ -465,7 +465,7 @@ device=ATSAM4E16CA
 T 59800 44400 5 1 0 0 0 0 1
 footprint=LQFP100
 T 60200 46300 5 8 1 1 0 0 1
-refdes=U?
+refdes=U1
 }
 N 50800 54300 49000 54300 4
 N 50800 54000 49300 54000 4
@@ -483,6 +483,8 @@ T 54100 54300 5 8 1 1 0 0 1
 refdes=J4
 T 54100 52500 5 8 1 1 0 0 1
 value=CAN
+T 54000 52400 5 10 0 0 0 0 1
+footprint=CONNECTOR 4 1
 }
 C 55300 52700 1 0 0 ATSAM4E16CA_CAN.sym
 {
@@ -497,11 +499,15 @@ C 54800 52200 1 0 0 gnd.sym
 {
 T 55000 52300 5 8 1 1 0 4 1
 pinlabel=GND
+T 54800 52200 5 10 0 0 0 0 1
+netname=GND:1
 }
 C 54800 54200 1 0 0 power.sym
 {
 T 55000 54500 5 8 1 1 0 4 1
-pinlabel=Vcc
+pinlabel=+3.3v
+T 54800 54200 5 10 0 0 0 0 1
+netname=3.3v:1
 }
 N 54700 53900 55000 53900 4
 N 55000 53900 55000 54200 4
@@ -517,6 +523,8 @@ T 43900 53500 5 10 0 0 0 0 1
 device=none
 T 43900 53000 5 8 1 1 0 1 1
 value=ARMIO1
+T 43700 52900 5 10 0 0 0 0 1
+netname=ARMIO:1
 }
 C 43700 52600 1 0 0 io.sym
 {
@@ -524,6 +532,8 @@ T 43900 53200 5 10 0 0 0 0 1
 device=none
 T 43900 52700 5 8 1 1 0 1 1
 value=ARMIO2
+T 43700 52600 5 10 0 0 0 0 1
+netname=ARMIO:2
 }
 C 43700 50400 1 0 0 io.sym
 {
@@ -531,6 +541,8 @@ T 43900 51000 5 10 0 0 0 0 1
 device=none
 T 43900 50500 5 8 1 1 0 1 1
 value=ARMIO3
+T 43700 50400 5 10 0 0 0 0 1
+netname=ARMIO:3
 }
 C 43700 50100 1 0 0 io.sym
 {
@@ -538,6 +550,8 @@ T 43900 50700 5 10 0 0 0 0 1
 device=none
 T 43900 50200 5 8 1 1 0 1 1
 value=ARMIO4
+T 43700 50100 5 10 0 0 0 0 1
+netname=ARMIO:4
 }
 C 43700 47900 1 0 0 io.sym
 {
@@ -545,6 +559,8 @@ T 43900 48500 5 10 0 0 0 0 1
 device=none
 T 43900 48000 5 8 1 1 0 1 1
 value=ARMIO5
+T 43700 47900 5 10 0 0 0 0 1
+netname=ARMIO:5
 }
 C 43700 47600 1 0 0 io.sym
 {
@@ -552,6 +568,8 @@ T 43900 48200 5 10 0 0 0 0 1
 device=none
 T 43900 47700 5 8 1 1 0 1 1
 value=ARMIO6
+T 43700 47600 5 10 0 0 0 0 1
+netname=ARMIO:6
 }
 C 43700 45400 1 0 0 io.sym
 {
@@ -559,6 +577,8 @@ T 43900 46000 5 10 0 0 0 0 1
 device=none
 T 43900 45500 5 8 1 1 0 1 1
 value=ARMIO7
+T 43700 45400 5 10 0 0 0 0 1
+netname=ARMIO:7
 }
 C 43700 45100 1 0 0 io.sym
 {
@@ -566,6 +586,8 @@ T 43900 45700 5 10 0 0 0 0 1
 device=none
 T 43900 45200 5 8 1 1 0 1 1
 value=ARMIO8
+T 43700 45100 5 10 0 0 0 0 1
+netname=ARMIO:8
 }
 N 43700 53000 43400 53000 4
 N 43700 52700 43400 52700 4
@@ -581,17 +603,23 @@ T 60100 50900 5 10 0 0 0 0 1
 device=none
 T 60100 50400 5 8 1 1 0 1 1
 value=SEN_TEMP
+T 59900 50300 5 10 0 0 0 0 1
+netname=SEN_TEMP:1
 }
 N 54900 50700 54600 50700 4
 C 54700 49600 1 0 0 gnd.sym
 {
 T 54900 49700 5 8 1 1 0 4 1
 pinlabel=GND
+T 54700 49600 5 10 0 0 0 0 1
+netname=GND:1
 }
 C 57300 49600 1 0 0 gnd.sym
 {
 T 57500 49700 5 8 1 1 0 4 1
 pinlabel=GND
+T 57300 49600 5 10 0 0 0 0 1
+netname=GND:1
 }
 N 54900 50100 54900 50400 4
 N 54900 50400 54600 50400 4
@@ -604,6 +632,8 @@ T 60100 51200 5 10 0 0 0 0 1
 device=none
 T 60100 50700 5 8 1 1 0 1 1
 value=SEN_TEMP_PWR
+T 59900 50600 5 10 0 0 0 0 1
+netname=SEN_TEMP_PWR:1
 }
 C 46500 52500 1 0 0 connector-4x2.sym
 {
@@ -613,6 +643,8 @@ T 46900 54400 5 8 1 1 0 0 1
 refdes=J3
 T 46900 52600 5 8 1 1 0 0 1
 value=RF
+T 46500 52500 5 10 0 0 0 0 1
+footprint=CONNECTOR 4 2
 }
 N 46500 54000 45600 54000 4
 N 45600 54000 45600 52000 4
@@ -622,6 +654,8 @@ T 45100 54200 5 10 0 0 0 6 1
 device=none
 T 45100 53700 5 8 1 1 0 7 1
 value=RF CE
+T 45300 53600 5 10 0 0 0 0 1
+netname=RFCE:1
 }
 N 45300 53700 46500 53700 4
 N 46500 53100 46200 53100 4
@@ -660,6 +694,8 @@ T 53800 46500 5 8 1 1 0 0 1
 refdes=J18
 T 53800 41700 5 8 1 1 0 0 1
 value=GPIO
+T 53400 41600 5 10 0 0 0 0 1
+footprint=CONNECTOR 14 2
 }
 C 53800 47100 1 0 0 connector-2x1.sym
 {
@@ -669,6 +705,8 @@ T 53900 48400 5 8 1 1 0 0 1
 refdes=J17
 T 53700 47200 5 8 1 1 0 0 1
 value=GPIO-PWR
+T 53800 47100 5 10 0 0 0 0 1
+footprint=CONNECTOR 2 1
 }
 C 54900 45100 1 0 0 io.sym
 {
@@ -676,6 +714,8 @@ T 55100 45700 5 10 0 0 0 0 1
 device=none
 T 55100 45200 5 8 1 1 0 1 1
 value=IO18
+T 54900 45100 5 10 0 0 0 0 1
+netname=IO:18
 }
 C 54900 44800 1 0 0 io.sym
 {
@@ -683,6 +723,8 @@ T 55100 45400 5 10 0 0 0 0 1
 device=none
 T 55100 44900 5 8 1 1 0 1 1
 value=IO19
+T 54900 44800 5 10 0 0 0 0 1
+netname=IO:19
 }
 C 54900 44500 1 0 0 io.sym
 {
@@ -690,6 +732,8 @@ T 55100 45100 5 10 0 0 0 0 1
 device=none
 T 55100 44600 5 8 1 1 0 1 1
 value=IO20
+T 54900 44500 5 10 0 0 0 0 1
+netname=IO:20
 }
 C 54900 44200 1 0 0 io.sym
 {
@@ -697,6 +741,8 @@ T 55100 44800 5 10 0 0 0 0 1
 device=none
 T 55100 44300 5 8 1 1 0 1 1
 value=IO21
+T 54900 44200 5 10 0 0 0 0 1
+netname=IO:21
 }
 C 54900 43900 1 0 0 io.sym
 {
@@ -704,6 +750,8 @@ T 55100 44500 5 10 0 0 0 0 1
 device=none
 T 55100 44000 5 8 1 1 0 1 1
 value=IO22
+T 54900 43900 5 10 0 0 0 0 1
+netname=IO:22
 }
 C 54900 43600 1 0 0 io.sym
 {
@@ -711,6 +759,8 @@ T 55100 44200 5 10 0 0 0 0 1
 device=none
 T 55100 43700 5 8 1 1 0 1 1
 value=IO23
+T 54900 43600 5 10 0 0 0 0 1
+netname=IO:23
 }
 C 54900 43300 1 0 0 io.sym
 {
@@ -718,6 +768,8 @@ T 55100 43900 5 10 0 0 0 0 1
 device=none
 T 55100 43400 5 8 1 1 0 1 1
 value=IO24
+T 54900 43300 5 10 0 0 0 0 1
+netname=IO:24
 }
 C 54900 43000 1 0 0 io.sym
 {
@@ -725,6 +777,8 @@ T 55100 43600 5 10 0 0 0 0 1
 device=none
 T 55100 43100 5 8 1 1 0 1 1
 value=IO25
+T 54900 43000 5 10 0 0 0 0 1
+netname=IO:25
 }
 C 54900 42700 1 0 0 io.sym
 {
@@ -732,6 +786,8 @@ T 55100 43300 5 10 0 0 0 0 1
 device=none
 T 55100 42800 5 8 1 1 0 1 1
 value=IO26
+T 54900 42700 5 10 0 0 0 0 1
+netname=IO:26
 }
 C 54900 42400 1 0 0 io.sym
 {
@@ -739,13 +795,8 @@ T 55100 43000 5 10 0 0 0 0 1
 device=none
 T 55100 42500 5 8 1 1 0 1 1
 value=IO27
-}
-C 54900 42100 1 0 0 io.sym
-{
-T 55100 42700 5 10 0 0 0 0 1
-device=none
-T 55100 42200 5 8 1 1 0 1 1
-value=IO28
+T 54900 42400 5 10 0 0 0 0 1
+netname=IO:27
 }
 C 53100 44200 1 0 1 io.sym
 {
@@ -753,6 +804,8 @@ T 52900 44800 5 10 0 0 0 6 1
 device=none
 T 52900 44300 5 8 1 1 0 7 1
 value=IO7
+T 53100 44200 5 10 0 0 0 0 1
+netname=IO:7
 }
 C 53100 43900 1 0 1 io.sym
 {
@@ -760,6 +813,8 @@ T 52900 44500 5 10 0 0 0 6 1
 device=none
 T 52900 44000 5 8 1 1 0 7 1
 value=IO8
+T 53100 43900 5 10 0 0 0 0 1
+netname=IO:8
 }
 C 53100 43600 1 0 1 io.sym
 {
@@ -767,6 +822,8 @@ T 52900 44200 5 10 0 0 0 6 1
 device=none
 T 52900 43700 5 8 1 1 0 7 1
 value=IO9
+T 53100 43600 5 10 0 0 0 0 1
+netname=IO:9
 }
 C 53100 42700 1 0 1 io.sym
 {
@@ -774,6 +831,8 @@ T 52900 43300 5 10 0 0 0 6 1
 device=none
 T 52900 42800 5 8 1 1 0 7 1
 value=IO12
+T 53100 42700 5 10 0 0 0 0 1
+netname=IO:12
 }
 C 53100 42400 1 0 1 io.sym
 {
@@ -781,6 +840,8 @@ T 52900 43000 5 10 0 0 0 6 1
 device=none
 T 52900 42500 5 8 1 1 0 7 1
 value=IO13
+T 53100 42400 5 10 0 0 0 0 1
+netname=IO:13
 }
 C 53100 42100 1 0 1 io.sym
 {
@@ -788,6 +849,8 @@ T 52900 42700 5 10 0 0 0 6 1
 device=none
 T 52900 42200 5 8 1 1 0 7 1
 value=IO14
+T 53100 42100 5 10 0 0 0 0 1
+netname=IO:14
 }
 C 53100 43000 1 0 1 io.sym
 {
@@ -795,6 +858,8 @@ T 52900 43600 5 10 0 0 0 6 1
 device=none
 T 52900 43100 5 8 1 1 0 7 1
 value=IO11
+T 53100 43000 5 10 0 0 0 0 1
+netname=IO:11
 }
 C 53100 43300 1 0 1 io.sym
 {
@@ -802,6 +867,8 @@ T 52900 43900 5 10 0 0 0 6 1
 device=none
 T 52900 43400 5 8 1 1 0 7 1
 value=IO10
+T 53100 43300 5 10 0 0 0 0 1
+netname=IO:10
 }
 C 53100 44500 1 0 1 io.sym
 {
@@ -809,6 +876,8 @@ T 52900 45100 5 10 0 0 0 6 1
 device=none
 T 52900 44600 5 8 1 1 0 7 1
 value=IO6
+T 53100 44500 5 10 0 0 0 0 1
+netname=IO:6
 }
 C 53100 44800 1 0 1 io.sym
 {
@@ -816,6 +885,8 @@ T 52900 45400 5 10 0 0 0 6 1
 device=none
 T 52900 44900 5 8 1 1 0 7 1
 value=IO5
+T 53100 44800 5 10 0 0 0 0 1
+netname=IO:5
 }
 C 53100 45100 1 0 1 io.sym
 {
@@ -823,6 +894,8 @@ T 52900 45700 5 10 0 0 0 6 1
 device=none
 T 52900 45200 5 8 1 1 0 7 1
 value=IO4
+T 53100 45100 5 10 0 0 0 0 1
+netname=IO:4
 }
 C 53100 45400 1 0 1 io.sym
 {
@@ -830,6 +903,8 @@ T 52900 46000 5 10 0 0 0 6 1
 device=none
 T 52900 45500 5 8 1 1 0 7 1
 value=IO3
+T 53100 45400 5 10 0 0 0 0 1
+netname=IO:3
 }
 C 53100 45700 1 0 1 io.sym
 {
@@ -837,6 +912,8 @@ T 52900 46300 5 10 0 0 0 6 1
 device=none
 T 52900 45800 5 8 1 1 0 7 1
 value=IO2
+T 53100 45700 5 10 0 0 0 0 1
+netname=IO:2
 }
 C 53100 46000 1 0 1 io.sym
 {
@@ -844,6 +921,8 @@ T 52900 46600 5 10 0 0 0 6 1
 device=none
 T 52900 46100 5 8 1 1 0 7 1
 value=IO1
+T 53100 46000 5 10 0 0 0 0 1
+netname=IO:1
 }
 C 54900 46000 1 0 0 io.sym
 {
@@ -851,6 +930,8 @@ T 55100 46600 5 10 0 0 0 0 1
 device=none
 T 55100 46100 5 8 1 1 0 1 1
 value=IO15
+T 54900 46000 5 10 0 0 0 0 1
+netname=IO:15
 }
 C 54900 45700 1 0 0 io.sym
 {
@@ -858,6 +939,8 @@ T 55100 46300 5 10 0 0 0 0 1
 device=none
 T 55100 45800 5 8 1 1 0 1 1
 value=IO16
+T 54900 45700 5 10 0 0 0 0 1
+netname=IO:16
 }
 C 54900 45400 1 0 0 io.sym
 {
@@ -865,16 +948,22 @@ T 55100 46000 5 10 0 0 0 0 1
 device=none
 T 55100 45500 5 8 1 1 0 1 1
 value=IO17
+T 54900 45400 5 10 0 0 0 0 1
+netname=IO:17
 }
 C 54600 46900 1 0 0 gnd.sym
 {
 T 54800 47000 5 8 1 1 0 4 1
 pinlabel=GND
+T 54600 46900 5 10 0 0 0 0 1
+netname=GND:1
 }
 C 54600 48300 1 0 0 power.sym
 {
 T 54800 48600 5 8 1 1 0 4 1
 pinlabel=+3.3v
+T 54600 48300 5 10 0 0 0 0 1
+netname=3.3v:1
 }
 N 54500 48000 54800 48000 4
 N 54800 48000 54800 48300 4
@@ -891,7 +980,6 @@ N 54900 43400 54600 43400 4
 N 54900 43100 54600 43100 4
 N 54900 42800 54600 42800 4
 N 54900 42500 54600 42500 4
-N 54900 42200 54600 42200 4
 N 54900 45800 54600 45800 4
 N 54900 45500 54600 45500 4
 N 53100 44300 53400 44300 4
