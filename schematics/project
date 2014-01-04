@@ -1,2 +1,2 @@
-schematics "Control Board - Headers.sch" "Control Board - LEDs.sch" "Control Board - Microcontroller IO.sch" "Control Board - Microcontroller Power.sch" "Control Board - MicroSD Card.sch" "Control Board - Peripheral Headers.sch" "Control Board - Power.sch" "Control Board - Sensors.sch" "Control Board - Oscillators.sch"
+schematics "Control Board - Headers.sch" "Control Board - LEDs.sch" "Control Board - Microcontroller IO.sch" "Control Board - Microcontroller Power.sch" "Control Board - Peripheral Headers.sch" "Control Board - Power.sch" "Control Board - Sensors.sch" "Control Board - Oscillators.sch"
 output-name control-board
