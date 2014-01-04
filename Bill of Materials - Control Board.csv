@@ -1,61 +1,64 @@
-Quantity,	References,							Item,						URL,			Cost
+Quantity,	References,				Item,						URL,									Unit Price,		Price
 ICs,
-1,			U1,									ATSAM3U2C,					,																											$6.19
-1,			U2,									LM2596S-3.3,				,																											$4.05
+1,			U1,						ATSAM4E16CA-AU,				http://www.digikey.com/short/qrd10,		$11.09,			$11.09
+1,			U2,						LM2596S-3.3/NOPB,			http://www.digikey.com/short/qr0cr,		$4.54,			$4.54
+1,			U3,						IP4234CZ6-125,				http://www.digikey.com/short/qr077,		$0.46,			$0.46
 ,
 Inductors,
-2,			L1-L2,								10uH/100mA inductor,		,																											$0.00
+1,			L1,						100uH inductor,				http://www.digikey.com/short/qr07p,		$4.42,			$4.42
+1,			L2,						10uH 0805 inductor,			http://www.digikey.com/short/qr07r,		$0.08,			$0.08
 ,
 Capacitors,
-4,			C6 C12 C15 C17,						4.7uF 0805 capacitor,		,																											$0.00
-14,			C1-C5 C7-C11 C13-C14 C16 C18,		100nF 0805 capacitor,		,																											$0.00
-1,			C19,								10pF 0805 capacitor,		,																											$0.00
-1,			C20,								switching capacitor,		,																											$0.00
-1,			C21,								switching capacitor,		,																											$0.00
-1,			C22,								100pF 0805 capacitor,		,																											$0.00
-4,			C23-C26,							18pF 0805 capacitor,		,																											$0.00
+1,			C1,						100uF low ESR capacitor,	http://www.digikey.com/short/qr070,		$1.49,			$1.49
+1,			C2,						470uF low ESR capacitor,	http://www.digikey.com/short/qr0tq,		$2.46,			$2.46
+2,			C3 C12,					10uF 0805 capacitor,		http://www.digikey.com/short/qr0t4,		$0.16,			$0.32
+1,			C4,						2.2uF 0805 capacitor,		http://www.digikey.com/short/qr0tf,		$0.12,			$0.12
+11,			C5-C6 C8-C11 C13-17,	100nF 0805 capacitor,		http://www.digikey.com/short/qr0t1,		$0.03,			$0.34
+1,			C7,						4.7uF 0805 capacitor,		http://www.digikey.com/short/qr034,		$0.10,			$0.10
+2,			C18-C19,				22pF 0805 capacitor,		http://www.digikey.com/short/qr035,		$0.10,			$0.20
+2,			C20-C21,				1pF 0805 capacitor,			http://www.digikey.com/short/qr0q7,		$0.11,			$0.22
+1,			C22,					100pF 0805 capacitor,		http://www.digikey.com/short/qr0qp,		$0.10,			$0.10
 ,
 Diodes,
-1,			D1,									switching schkotty diode,	,																											$0.00
-1,			LED_PWR,							0805 blue led,				,																											$0.00
-3,			LED_ARED LED_SFNT LED_SBCK,			0805 red led,				,																											$0.00
-1,			LED_AGRN,							0805 green led,				,																											$0.00
+1,			D1,						SK32 3A schotty diode,		http://www.digikey.com/short/qr0qb,		$0.57,			$0.57
+1,			LED_PWR,				0805 blue led,				http://www.digikey.com/short/qr0q0,		$0.51,			$0.51
+1,			LED_ARED,				0805 red led,				http://www.digikey.com/short/qr083,		$0.19,			$0.19
+1,			LED_AGRN,				0805 green led,				http://www.digikey.com/short/qr08m,		$0.23,			$0.23
 ,
 Resistors,
-5,			R1-R4 R24,							100K 0805 resistor,			,																											$0.00
-2,			R5-R6,								39R 0805 resistor,			,																											$0.00
-1,			R8,									green 0805 led resistor,	,																											$0.00
-3,			R7 R9-R10,							red 0805 led resistor,		,																											$0.00
-2,			R11-R12,							1R 0805 resistor,			,																											$0.00
-1,			R13,								6R8 0805 resistor,			,																											$0.00
-1,			R14,								blue 0805 led resistor,		,																											$0.00
-1,			R15,								R8 0805 resistor,			,																											$0.00
-1,			R16,								1K 0805 resistor,			,																											$0.00
-1,			R17,								270R 0805 resistor,			,																											$0.00
-5,			R18-22,								10K 0805 resistor,			,																											$0.00
-1,			R23,								2K 0805 resistor,			,																											$0.00
+2,			R1-R2,					1R 0805 resistor,			http://www.digikey.com/short/qr08f,		$0.04,			$0.08
+11,			R3-R13,					300K 0805 resistor,			http://www.digikey.com/short/qr0jc,		$0.02,			$0.21
+5,			R14-R17 R25,			100K 0805 resistor,			http://www.digikey.com/short/qr0jp,		$0.04,			$0.20
+5,			R18-R22,				47K 0805 resistor,			http://www.digikey.com/short/qr0j2,		$0.04,			$0.20
+2,			R23-R24,				27R 0805 resistor,			http://www.digikey.com/short/qr0j1,		$0.10,			$0.20
+2,			R26-R27,				2K 0805 resistor,			http://www.digikey.com/short/qr0p2,		$0.04,			$0.08
+1,			R28,					680R 0805 resistor,			http://www.digikey.com/short/qr0z8,		$0.04,			$0.04
+1,			R29,					270R 0805 resistor,			http://www.digikey.com/short/qr0zh,		$0.04,			$0.04
+1,			R30,					75R 0805 resistor,			http://www.digikey.com/short/qr0zd,		$0.04,			$0.04
+1,			R31,					60R4 0805 resistor,			http://www.digikey.com/short/qr04t,		$0.04,			$0.04
 ,
 Transistors,
-5,			Q1-Q5,								NPN transistor,				,																											$0.00
-1,			Q6,									P-Channel MOSFET,			,																											$0.00
+11,			Q1-Q11,					PBMTA14,215 SOT23,			http://www.digikey.com/short/qr04r,		$0.36,			$3.96
+1,			Q12,					NTR0202PL SOT23,			http://www.digikey.com/short/qr0m3,		$0.52,			$0.52
+2,			Q13-Q14,				BC817 SOT23,				http://www.digikey.com/short/qr0mr,		$0.21,			$0.42
 ,
 Switches,
-1,			PWR,								STSP power on/off switch,	,																											$0.00
-1,			PWR_SEL,							STDP power select switch,	,																											$0.00
-1,			PRGM ERASE,							momentary push button,		,																											$0.00
+2,			PWR PWR_SEL,			STDP 5A slide switch,		http://www.digikey.com/short/qr0h4,		$2.93,			$5.86
+,
+Crystals,
+1,			Y1,						32.768KHz crystal,			http://www.digikey.com/short/qr0hn,		$0.82,			$0.82
+1,			Y2,						12MHz crystal,				http://www.digikey.com/short/qr09t,		$0.90,			$0.90
 ,
 Headers,
-4,			H1-H4,								2x3 arm header,				,																											$0.00
-5,			H5-H8 H18,							1x6 header,					,																											$0.00
-1,			H9,									2x5 JTAG header,			,																											$0.00
-1,			H10 H13,							1x4 header,					,																											$0.00
-1,			H14,								1x2 3amp header,			,																											$0.00
-3,			H11-H12 H15,						1x5 header,					,																											$0.00
-1,			H16,								2x9 EBI header,				,																											$0.00
-1,			H17,								1x8 GPIO header,			,																											$0.00
-1,			H19,								1x3 Temp header,			,																											$0.00
+1,			J1,						2x5 male shrouded,			http://www.digikey.com/short/qr09p,		$0.26,			$0.26
+1,			J2,						1x2 male right-angle,		http://www.digikey.com/short/qr09r,		$0.52,			$0.52
+1,			J3,						2x4 female,					http://www.digikey.com/short/qr09d,		$0.84,			$0.84
+33,			J4-J5 J10-J15,			1x33 male breakaway,		http://www.digikey.com/short/qr0b4,		$0.11,			$3.91
+4,			J6-J9,					2x3 male right-angle,		http://www.digikey.com/short/qr0bf,		$1.07,			$4.28
+1,			J16,					1x4 female,					http://www.digikey.com/short/qr05t,		$0.60,			$0.60
 ,
 Misc,
-1,			USB1,								Mini USB B socket,			,																											$0.00
-1,			SD1,								Micro SD socket,			http://www.mouser.com/ProductDetail/ALPS/SCHD3A0100/?qs=sGAEpiMZZMuJakaoiLiBpogHQ8AEN5F%2fewY8Ig3UUws%3d,	$0.00
-,			,									,							,																											Total: $12.18
+1,			F1,						Resettable PTC Fuse 3A,		http://www.digikey.com/short/qr05d,		$0.15,			$0.15
+1,			USB1,					Mini USB AB socket,			http://www.digikey.com/short/qr0rz,		$2.92,			$2.92
+1,			SD1,					Micro SD socket,			http://www.digikey.com/short/qr0r9,		$1.84,			$1.84
+,			,						,							,										Total:,			$56.37
