@@ -15,7 +15,7 @@ refdes=J6
 T 42600 51900 5 8 1 1 0 0 1
 value=Arm 1
 T 42200 51800 5 10 0 1 0 0 1
-footprint=HEADER-ARM
+footprint=CONNECTOR 3 2
 }
 C 43500 51600 1 0 0 gnd.sym
 {
@@ -46,7 +46,7 @@ refdes=J7
 T 42600 49400 5 8 1 1 0 0 1
 value=Arm 2
 T 42200 49300 5 10 0 1 0 0 1
-footprint=HEADER-ARM
+footprint=CONNECTOR 3 2
 }
 C 43500 49100 1 0 0 gnd.sym
 {
@@ -77,7 +77,7 @@ refdes=J8
 T 42600 46900 5 8 1 1 0 0 1
 value=Arm 3
 T 42200 46800 5 10 0 1 0 0 1
-footprint=HEADER-ARM
+footprint=CONNECTOR 3 2
 }
 C 43500 46600 1 0 0 gnd.sym
 {
@@ -108,7 +108,7 @@ refdes=J9
 T 42600 44400 5 8 1 1 0 0 1
 value=Arm 4
 T 42200 44300 5 10 0 1 0 0 1
-footprint=HEADER-ARM
+footprint=CONNECTOR 3 2
 }
 C 43500 44100 1 0 0 gnd.sym
 {
@@ -168,7 +168,7 @@ C 50800 50100 1 0 0 ATSAM4E16CA_SPI.sym
 T 50800 50100 5 1 0 0 0 0 1
 device=ATSAM4E16CA
 T 50800 50100 5 1 0 0 0 0 1
-footprint=LQFP100
+footprint=LQFP100_14
 T 51200 54700 5 8 1 1 0 0 1
 refdes=U1
 }
@@ -289,7 +289,7 @@ C 59900 52300 1 0 0 ATSAM4E16CA_UART.sym
 T 59900 52300 5 1 0 0 0 0 1
 device=ATSAM4E16CA
 T 59900 52300 5 1 0 0 0 0 1
-footprint=LQFP100
+footprint=LQFP100_14
 T 60300 54200 5 8 1 1 0 0 1
 refdes=U1
 }
@@ -463,7 +463,7 @@ C 59800 44400 1 0 0 ATSAM4E16CA_I2C.sym
 T 59800 44400 5 1 0 0 0 0 1
 device=ATSAM4E16CA
 T 59800 44400 5 1 0 0 0 0 1
-footprint=LQFP100
+footprint=LQFP100_14
 T 60200 46300 5 8 1 1 0 0 1
 refdes=U1
 }
@@ -491,7 +491,7 @@ C 55300 52700 1 0 0 ATSAM4E16CA_CAN.sym
 T 55300 52700 5 1 0 0 0 0 1
 device=ATSAM4E16CA
 T 55300 52700 5 1 0 0 0 0 1
-footprint=LQFP100
+footprint=LQFP100_14
 T 55695 53999 5 8 1 1 0 0 1
 refdes=U1
 }
