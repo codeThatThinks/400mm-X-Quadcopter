@@ -517,86 +517,6 @@ N 54700 53600 55300 53600 4
 N 54700 53300 55300 53300 4
 N 50800 51900 50200 51900 4
 N 50200 51900 50200 46500 4
-C 43700 52900 1 0 0 io.sym
-{
-T 43900 53500 5 10 0 0 0 0 1
-device=none
-T 43900 53000 5 8 1 1 0 1 1
-value=ARMIO1
-T 43700 52900 5 10 0 0 0 0 1
-netname=ARMIO:1
-}
-C 43700 52600 1 0 0 io.sym
-{
-T 43900 53200 5 10 0 0 0 0 1
-device=none
-T 43900 52700 5 8 1 1 0 1 1
-value=ARMIO2
-T 43700 52600 5 10 0 0 0 0 1
-netname=ARMIO:2
-}
-C 43700 50400 1 0 0 io.sym
-{
-T 43900 51000 5 10 0 0 0 0 1
-device=none
-T 43900 50500 5 8 1 1 0 1 1
-value=ARMIO3
-T 43700 50400 5 10 0 0 0 0 1
-netname=ARMIO:3
-}
-C 43700 50100 1 0 0 io.sym
-{
-T 43900 50700 5 10 0 0 0 0 1
-device=none
-T 43900 50200 5 8 1 1 0 1 1
-value=ARMIO4
-T 43700 50100 5 10 0 0 0 0 1
-netname=ARMIO:4
-}
-C 43700 47900 1 0 0 io.sym
-{
-T 43900 48500 5 10 0 0 0 0 1
-device=none
-T 43900 48000 5 8 1 1 0 1 1
-value=ARMIO5
-T 43700 47900 5 10 0 0 0 0 1
-netname=ARMIO:5
-}
-C 43700 47600 1 0 0 io.sym
-{
-T 43900 48200 5 10 0 0 0 0 1
-device=none
-T 43900 47700 5 8 1 1 0 1 1
-value=ARMIO6
-T 43700 47600 5 10 0 0 0 0 1
-netname=ARMIO:6
-}
-C 43700 45400 1 0 0 io.sym
-{
-T 43900 46000 5 10 0 0 0 0 1
-device=none
-T 43900 45500 5 8 1 1 0 1 1
-value=ARMIO7
-T 43700 45400 5 10 0 0 0 0 1
-netname=ARMIO:7
-}
-C 43700 45100 1 0 0 io.sym
-{
-T 43900 45700 5 10 0 0 0 0 1
-device=none
-T 43900 45200 5 8 1 1 0 1 1
-value=ARMIO8
-T 43700 45100 5 10 0 0 0 0 1
-netname=ARMIO:8
-}
-N 43700 53000 43400 53000 4
-N 43700 52700 43400 52700 4
-N 43700 50500 43400 50500 4
-N 43700 50200 43400 50200 4
-N 43700 48000 43400 48000 4
-N 43700 47700 43400 47700 4
-N 43700 45500 43400 45500 4
-N 43700 45200 43400 45200 4
 C 59900 50300 1 0 0 io.sym
 {
 T 60100 50900 5 10 0 0 0 0 1
@@ -843,4 +763,60 @@ T 54000 44700 5 8 1 1 0 0 1
 refdes=J18
 T 54000 42300 5 8 1 1 0 0 1
 value=GPIO
+}
+C 43400 52900 1 0 0 io-nc.sym
+{
+T 43400 53300 5 10 0 0 0 0 1
+value=NoConnection
+T 43400 53700 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 43400 52600 1 0 0 io-nc.sym
+{
+T 43400 53000 5 10 0 0 0 0 1
+value=NoConnection
+T 43400 53400 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 43400 50400 1 0 0 io-nc.sym
+{
+T 43400 50800 5 10 0 0 0 0 1
+value=NoConnection
+T 43400 51200 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 43400 50100 1 0 0 io-nc.sym
+{
+T 43400 50500 5 10 0 0 0 0 1
+value=NoConnection
+T 43400 50900 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 43400 47900 1 0 0 io-nc.sym
+{
+T 43400 48300 5 10 0 0 0 0 1
+value=NoConnection
+T 43400 48700 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 43400 47600 1 0 0 io-nc.sym
+{
+T 43400 48000 5 10 0 0 0 0 1
+value=NoConnection
+T 43400 48400 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 43400 45400 1 0 0 io-nc.sym
+{
+T 43400 45800 5 10 0 0 0 0 1
+value=NoConnection
+T 43400 46200 5 10 0 0 0 0 1
+device=DRC_Directive
+}
+C 43400 45100 1 0 0 io-nc.sym
+{
+T 43400 45500 5 10 0 0 0 0 1
+value=NoConnection
+T 43400 45900 5 10 0 0 0 0 1
+device=DRC_Directive
 }
