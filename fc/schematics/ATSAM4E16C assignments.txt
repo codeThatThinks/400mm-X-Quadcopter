@@ -1,0 +1,100 @@
+PD0 - ARED_LED
+PD31 - STB_LED
+GND - GND
+VDDOUT - GND
+VDDIN - +3.3v
+GND - GND
+GND - GND
+GND - GND
+ADVREF - +3.3v
+GND - GND
+AFE0_AD5 - Bat Sensor
+									PB0 - AFE0_AD4 - GPIO*
+									PA20 - AFE0_AD3 - GPIO*
+									PA19 - AFE0_AD2 - GPIO*
+									PA18 - AFE0_AD1 - GPIO*
+									PA17 - AFE0_AD0 - GPIO*
+CANTX0 - CAN Header
+VDDCORE - GND
+VDDIO - +3.3v
+CANRX0 - CAN Header
+AFE1_AD2 - Temp Sensor Header
+VDDCORE - GND
+PD30 - SFNT_LED
+XIN32 - 32KHz Clock
+XOUT32 - 32KHz Clock
+NPCS3 - SPI3 Header
+MOSI - SPI Headers
+VDDIO - +3.3v
+GND - GND
+									PA16 - GPIO
+									PA23 - GPIO
+PD27 - AGRN_LED
+PA15 - Arm 4
+SPCK - SPI Headers
+									PD25 - GPIO
+									PD26 - GPIO
+									PD24 - GPIO
+PWMH1 - Arm 2
+PWMH3 - Arm 4
+PWMH2 - Arm 3
+PD22 - Arm 1
+MCDA2 - microSD Card
+PD21 - Arm 2
+NPCS0 - SPI1 Header
+PWMH0 - Arm 1
+NPCS1 - SPI2 Header
+PD19 - Arm 2
+MISO - SPI Headers
+PD18 - Arm 3
+MCDA3 - microSD Card
+PD28 - Arm 1
+URXD1 - UART2 Header
+PD17 - Arm 3
+									PA9 - GPIO
+TWCK0 - I2C Header
+PD16 - Arm 4
+TMS/SWDIO - JTAG Header
+NRST - JTAG Header
+PD14 - Temp Sensor IO
+TST - NC
+ERASE - NC
+PD13 - Bat Sensor IO
+TCK/SWCLK - JTAG Header
+TWD0 - I2C Header
+									PD12 - GPIO
+									PA2 - DATRG - GPIO*
+GND - GND
+VDDIO - +3.3v
+									PD11 - GPIO*
+									PA1 - GPIO*
+									PD10 - GPIO*
+									PA0 - GPIO*
+JTAGSEL - JTAG Header
+TDI - JTAG Header
+									PD15 - GPIO*
+PD29 - SBCK_LED
+TDO/TRACESWO - JTAG Header
+									PD9 - GPIO
+MCCDA - microSD Card
+									PD8 - GPIO
+UTXD1 - UART2 Header
+MCDA0 - microSD Card
+MCDA1 - microSD Card
+									PD7 - GPIO
+									PD6 - GPIO
+VDDCORE - GND
+									PD5 - GPIO
+									PD4 - GPIO
+									PD3 - GPIO
+MCCK - microSD Card
+									PD2 - GPIO
+									PD1 - GPIO
+VDDIO - +3.3v
+DDM - USB Port
+DDP - USB Port
+VDDPLL - GND
+NPCS1 - SPI2 Header
+XOUT - 12MHz Clock
+XIN - 12MHz Clock
+									PB13 - DAC0 - GPIO*

@@ -2,9 +2,18 @@
 ### Control Board
 - APM-based board
 
-- 32-bit Atmel ARM microcontroller
+- ATSAM3U2C-AU 32-bit Atmel ARM microcontroller
     - external crystal for clocking
     - firmware based on APM, FreeRTOS, ROS, or MultiWii
+    - SRAM: run time data (APM: 8k)
+    - Flash: firmware (APM: 256k)
+    - EEPROM: configuration read from sd card (APM: 4k)
+    - SPI (APM: 5)
+    - I2C (APM: 1)
+    - UART (APM: 4)
+    - PWM (APM: 15)
+    - external bus interface, for extending memory (APM: no)
+    - APM: $17
 
 - microSD card
     - external APM modules
@@ -17,24 +26,15 @@
     - on/off switch
     - usb connector for external power
     - battery connector
-    - connectors for 3.3v/5v rails
-    - power protection circuit (diodes, etc.)
-    - noise reductions circuit (caps, inductors, etc.)
-
-    - switching power supply, 5v
-        - connects to battery
-        - provides 5v rail
-        - powers ESCs and motors
+    - connectors for 3.3v rail
     
     - switching power supply, 3.3v
-        - connects to 5v rail
         - provides 3v rail
-        - powers all control electronics, etc
+        - powers all control electronics
 
-    - power management MCU, Atmel AVR
-        - monitors battery voltage, temp, etc
-        - lipo safety
-        - battery/usb switching
+    - battery voltage sensor through ADC
+    - temp header for battery temp sensor
+    - 20V resettable fuse
 
 - connections
     - I2C (2)
@@ -80,5 +80,6 @@
     - reflash with SimonK firmware with Arduino
 
 ### Frame
+- 15 7/16" x 1/4" extruded plastic tube
 
 ### Battery

@@ -1,0 +1,5 @@
+unused components
+===============================
+C12 - 10uF 0805 capacitor
+C16 - 100nF 0805 capacitor
+C17 - 100nF 0805 capacitor
